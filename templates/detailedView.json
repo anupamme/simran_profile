@@ -88,6 +88,11 @@
                 }
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"videos/southbank.mp4",
+                    "caption":"At Southbank Festival"
+                }
             ]
         },
         {
@@ -127,6 +132,9 @@
                 }
             ],
             "videos":[
+                "poster":"../images/posterimage.PNG",
+                "videoLink":"videos/interviews.mp4",
+                    "caption":"Salman Khan selfi"
             ]
         },
         {
