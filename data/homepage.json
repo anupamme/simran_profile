@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "detailedLinkID": "food",
+            "title": "Food Activism",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "detailedLinkID": "ethnography",
+            "title": "Ethnography Research",
+            "coverImage": "../images/akb/cover_1.jpg"
+        },
+        {
+            "detailedLinkID": "interfaces",
+            "title": "Experiments with Interfaces",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "detailedLinkID": "visuals",
+            "title": "Visuals / Animes",
+            "coverImage": "../images/roofit/1.jpeg"
+        }
+    ]
+}

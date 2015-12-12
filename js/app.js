@@ -17,6 +17,10 @@ avenue.config(function ($routeProvider) {
             templateUrl: 'templates/detailView.html',
             controller: 'detailedViewController'
         }).
+        when('/food', {
+            templateUrl: 'templates/food.html',
+            controller: 'foodController'
+        }).
         when('/Error', {
         templateUrl: 'templates/error.html'
     }).
@@ -26,25 +30,35 @@ avenue.config(function ($routeProvider) {
 });
 
 avenue.controller("homeController", ['$scope', '$http', function ($scope, $http) {
-    $http.get("templates/homepage.json", { cache: true }).success(function (data) {
+    $http.get("data/homepage.json", { cache: true }).success(function (data) {
         $scope.items = data.items;
     }).error(function (data) {
         $window.location.href = '#/Error';
     });
 }]);
 
+avenue.controller("foodController", ['$scope', '$http', function($scope, $http) {
+    $http.get("data/food.json", {cache: true}).success(function(data){
+        $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
+     
 avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$routeParams', function ($scope, $http, $window, $routeParams) {
  
     $scope.item = [];
-    $scope.url = 'templates/detailedView.json';
-    $scope.getIframeSrc = function (videoURL) {
-        return 'videoURL';
-    };
-
-    $scope.fetchContent = function () {
-        $http.get($scope.url, { cache: true }).success(function (data) {
-            for (var i = 0; i < data.items.length; i++) {
+//    $scope.url = 'data/detailedView.json';
+//    $scope.getIframeSrc = function (videoURL) {
+//        return 'videoURL';
+//    };
+    debugger
+    $http.get("data/detailedView.json", {cache: true}).success(function (data) {
+        debugger
+        for (var i = 0; i < data.items.length; i++) {
+                debugger
                 if (data.items[i].detailedLinkID == $routeParams.id) {
+                    debugger
                     $scope.item = data.items[i];
                     // setCookie("html_player", 1, 365);
                     break;
@@ -53,17 +67,18 @@ avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$rou
         }).error(function (data) {
             $window.location.href = '#/Error';
         });
+//    $scope.fetchContent = function () {
+//        debugger
+//        
+//    }
+//    $scope.fetchContent();
 
-
-    }
-    $scope.fetchContent();
-
-    $http.get("templates/homepage.json", { cache: true }).success(function (data) {
-        $scope.list = data.items;
-    }).error(function (data) {
-        $scope.noDataFound = "No data found";
-       // $window.location.href = '#/Error';
-    });
+//    $http.get("data/homepage.json", { cache: true }).success(function (data) {
+//        $scope.list = data.items;
+//    }).error(function (data) {
+//        $scope.noDataFound = "No data found";
+//       // $window.location.href = '#/Error';
+//    });
 }]);
 
 avenue.filter("nl2br", ['$sce', function ($sce) {
