@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "detailedLinkID": "5",
+            "title": "Entree",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "detailedLinkID": "6",
+            "title": "Appetite",
+            "coverImage": "../images/akb/cover_1.jpg"
+        },
+        {
+            "detailedLinkID": "7",
+            "title": "Urban Food Chain",
+            "coverImage": "../images/dip/cover.jpg"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "dinfont";
-    src: url("../fonts/futura_book.ttf");
+    font-family: "Futura";
+    src: url("../fonts/futura_light.ttf");
 }
 body {
 background-color: #fcfcfc;
@@ -10,7 +10,7 @@ background-position: top left;
 background-size: auto;
 background-attachment: scroll;
 background-repeat: repeat;
-font-family: "dinfont" !important;
+font-family: "futura" !important;
 }
 .header-space {
     min-height:100px;
@@ -18,16 +18,34 @@ font-family: "dinfont" !important;
 .logo {
     color: #222;
     letter-spacing: 0.0238095238095238em;
-    font-size: 42px;
-    text-transform: uppercase;
+    font-size: 61px;
+/*    text-transform: uppercase;*/
     text-decoration: none;
     font-weight: 700;
     font-style: normal;
+    font-family: "futura";
     display: inline-block;
     line-height: 1.2em;
-    margin: 0;
+/*    margin: 0;*/
+    margin-left: 0.5em;
 }
-    .logo:hover,
+
+.logo-desc {
+    color: #222;
+    letter-spacing: 0.0238095238095238em;
+    font-size: 16px;
+/*    text-transform: uppercase;*/
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "futura";
+    display: inline-block;
+    line-height: 1.2em;
+/*    margin: 0;*/
+    margin-left: 0.5em;
+}
+
+.logo:hover,
     .logo:active,
     .logo:focus {
          color: #222;
@@ -36,6 +54,9 @@ font-family: "dinfont" !important;
 .cust-nav > li > a {
     text-transform:uppercase;
     color: #999;
+    margin-right: 0px;
+    position: relative;
+    font-size: 16px;
 }
 .cust-nav > li >a:hover,
 .cust-nav > li >a:focus {
@@ -43,13 +64,17 @@ font-family: "dinfont" !important;
   color: #111;
 }
 .image-holder > img {
-    max-width: 100%;
+    max-width: 95%;
 width: auto;
 display: block;
 height: auto;
 margin: 0 auto;
 cursor: pointer;
-min-height: 360px;
+/*margin: 5px 5em 0 auto;*/
+margin: 2.5%;
+/*margin-left: 50px;*/
+/*margin-right: 50px*/
+/*min-height: 360px;*/
 }
 .text-holder {
     font-size: 14px;
@@ -64,6 +89,7 @@ color: #404040;
 padding-top: 15px;
 height: 56px;
 overflow: hidden;
+    visibility: collapse;
 }
 .content-holder:hover,
 .content-holder:focus,
@@ -157,11 +183,11 @@ body {
 }
 .footer {
     text-align: center;
-    padding:50px 0px;
+    padding: 50px 0px;
   bottom: 0;
   width: 100%;
-  min-height:100px;
-  position:absolute;
+  min-height: 100px;
+  position: absolute;
 }
 
 .col-md-3 {

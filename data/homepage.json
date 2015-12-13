@@ -8,7 +8,7 @@
         {
             "detailedLinkID": "ethnography",
             "title": "Ethnography Research",
-            "coverImage": "../images/akb/cover_1.jpg"
+            "coverImage": "../images/dip/cover.jpg"
         },
         {
             "detailedLinkID": "interfaces",
@@ -18,7 +18,7 @@
         {
             "detailedLinkID": "visuals",
             "title": "Visuals / Animes",
-            "coverImage": "../images/roofit/1.jpeg"
+            "coverImage": "../images/dip/cover.jpg"
         }
     ]
 }
