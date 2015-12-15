@@ -63,6 +63,9 @@ font-family: "futura" !important;
   background-color:#fcfcfc !important;
   color: #111;
 }
+.content-holder:hover .text-holder{
+    opacity: 1;
+}
 .image-holder > img {
     max-width: 95%;
 width: auto;
@@ -89,16 +92,48 @@ color: #404040;
 padding-top: 15px;
 height: 56px;
 overflow: hidden;
-    visibility: collapse;
 }
-.content-holder:hover,
-.content-holder:focus,
-.content-holder:active {
-    text-decoration:none;
+span.text-holder {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    font-size: 14px;
+/*
+line-height: 1.6em;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: .06em;
+text-align: center;
+font-weight: 300;
+font-style: normal;
+color: #404040;
+padding-top: 15px;
+height: 56px;
+overflow: hidden;
+*/
+    opacity: 0;
+}
+span.text-holder span{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 .content-holder {
     margin-top: 55px;
-display: block;
+/*    display: block;*/
+/*
+    width:300px;
+    height:200px;
+*/
+   background-size:cover;
+    border-radius:5px;
+    overflow:hidden;
 }
 .detailed-image-holder > img {
 max-height: 100%;
@@ -109,6 +144,9 @@ margin: 0 auto;
 cursor: pointer;
 width: 100%;
 padding-top:15px;
+text-align: center;
+-webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;
 }
 
 .detailed-content {
@@ -166,13 +204,7 @@ cursor: pointer;
 .backtowork-content-holder {
     padding-top: 25px;
 }
-    .backtowork-content-holder > div > a {
-           color: #999;
-    }
-     .backtowork-content-holder > div > a:hover {
-          text-decoration:none;
-            color: #111;
-    }
+
      html {
   position: relative;
   min-height: 100%;

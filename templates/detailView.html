@@ -2,11 +2,21 @@
     <div class="row">
         <div class="detailed-content">
             <div class="col-md-3">
+<!--
+                <div class="detailed-image-list">
+                    <div ng-repeat="image in item.images2">
+                        <div class="detailed-image-holder">
+                            <img src="{{image.imageLink}}" />
+                        </div>
+                        <div class="text-holder">{{image.caption}}</div>
+                    </div>
+                </div>
+-->
                 <div>
                     <div class="detailed-header">{{item.detaildHeader}}</div>
                     <br />
                     <div class="detailed-description">
-                        <!-- {{item.description | nl2br}}-->
+<!--                         {{item.description | nl2br}}-->
                         <p ng-bind-html="item.description | nl2br"></p>
                     </div>
                     <br />
@@ -16,11 +26,17 @@
                             <a href="#/{{workExhibited.link}}">{{workExhibited.title}}</a>
                         </li>
                     </ul>
+                    <div class="detailed-header-detail" ng-show="item.researchPapers.length > 0">Research Papers: </div>
+                    <ul>
+                        <li ng-repeat="paper in item.researchPapers">
+                            <a href="#/{{paper.link}}">{{paper.title}}</a>
+                        </li>
+                    </ul>
 
                 </div>
             </div>
             <div class="col-md-1"></div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="detailed-videos-list">
                     <div ng-repeat="video in item.videos" >     
                     <iframe ng-src="{{video.videoLink | youtubeEmbedUrl }}" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -29,7 +45,11 @@
                         <div class="text-holder">{{video.caption}}</div>
                     </div>
                 </div>
-
+                <div id="slider">
+                    <img src="images/image1.jpg" alt="">
+                    <img data-src="images/image2.jpg" src="" alt="">
+                    <img data-src="images/image3.jpg" src="" alt="">
+                </div>
                 <div class="detailed-image-list">
                     <div ng-repeat="image in item.images">
                         <div class="detailed-image-holder">
@@ -64,3 +84,16 @@
 
     </div>
 </div>
+<script src="js/ideal-image-slider.min.js"></script>
+<script>
+debugger
+    var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    height: 400, // Required but can be set by CSS
+    interval: 4000
+});
+slider.start();
+
+</script>
+    
+<!--<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/32481053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->

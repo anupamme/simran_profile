@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "type": "leaf",
+            "detailedLinkID": "13",
+            "title": "Understanding Aural Life Worlds",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "type": "leaf",
+            "detailedLinkID": "14",
+            "title": "Records for Life: Re-evaluation and Re-design of a Healthcard Framework",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "type": "leaf",
+            "detailedLinkID": "15",
+            "title": "Taj Ganj: Taking Our Heritage Forward",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "type": "leaf",
+            "detailedLinkID": "16",
+            "title": "Samsung Research & Development, India",
+            "coverImage": "../images/dip/cover.jpg"
+        }
+    ]
+}

@@ -10,8 +10,10 @@ avenue.config(function ($routeProvider) {
             controller: 'homeController'
         }).
         when('/about', {
-            templateUrl: 'templates/about.html',
-            controller: 'aboutController'
+            templateUrl: 'templates/about.html'
+        }).
+        when('/resume', {
+            templateUrl: 'templates/resume.html'
         }).
         when('/detailedView/:id', {
             templateUrl: 'templates/detailView.html',
@@ -21,11 +23,19 @@ avenue.config(function ($routeProvider) {
             templateUrl: 'templates/food.html',
             controller: 'foodController'
         }).
+        when('/interfaces', {
+            templateUrl: 'templates/interface.html',
+            controller: 'interfaceController'
+        }).
+        when('/ethnography', {
+            templateUrl: 'templates/ethnography.html',
+            controller: 'ethnographyController'
+        }).
         when('/Error', {
         templateUrl: 'templates/error.html'
     }).
         otherwise({
-            redirectTo: '/'
+            redirectTo: '/#/'
         });
 });
 
@@ -45,9 +55,29 @@ avenue.controller("foodController", ['$scope', '$http', function($scope, $http) 
     })
 }]);
      
+avenue.controller("interfaceController", ['$scope', '$http', function($scope, $http) {
+    $http.get("data/interfaces.json", {cache: true}).success(function(data){
+        debugger
+        $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
+     
+avenue.controller("ethnographyController", ['$scope', '$http', function($scope, $http) {
+    $http.get("data/ethnography.json", {cache: true}).success(function(data){
+        debugger
+        $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
+     
 avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$routeParams', function ($scope, $http, $window, $routeParams) {
  
     $scope.item = [];
+    debugger
+    $scope.slider = new IdealImageSlider.Slider('#slider');
 //    $scope.url = 'data/detailedView.json';
 //    $scope.getIframeSrc = function (videoURL) {
 //        return 'videoURL';

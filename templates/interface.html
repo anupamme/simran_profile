@@ -1,0 +1,11 @@
+<div class="container" ng-controller="interfaceController">
+    <div class="row">
+        <div class="col-md-4" ng-repeat="item in items">
+            <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}">
+                <div class="image-holder">
+                    <img src="{{item.coverImage}}"/></div>
+                <div class="text-holder">{{item.title}}</div>
+            </a>
+        </div>          
+    </div>
+</div>
