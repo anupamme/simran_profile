@@ -2,16 +2,6 @@
     <div class="row">
         <div class="detailed-content">
             <div class="col-md-3">
-<!--
-                <div class="detailed-image-list">
-                    <div ng-repeat="image in item.images2">
-                        <div class="detailed-image-holder">
-                            <img src="{{image.imageLink}}" />
-                        </div>
-                        <div class="text-holder">{{image.caption}}</div>
-                    </div>
-                </div>
--->
                 <div>
                     <div class="detailed-header">{{item.detaildHeader}}</div>
                     <br />
@@ -20,6 +10,12 @@
                         <p ng-bind-html="item.description | nl2br"></p>
                     </div>
                     <br />
+                    <div class="detailed-header-detail" ng-show="item.awards.length > 0">Awards: </div>
+                    <ul>
+                        <li ng-repeat="paper in item.awards">
+                            <a href="#/{{paper.link}}">{{paper.title}}</a>
+                        </li>
+                    </ul>
                     <div class="detailed-header-detail" ng-show="item.workExhibited.length > 0">Work exhibited at: </div>
                     <ul>
                         <li ng-repeat="workExhibited in item.workExhibited">
@@ -32,10 +28,9 @@
                             <a href="#/{{paper.link}}">{{paper.title}}</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-md-2"></div>
             <div class="col-md-6">
                 <div class="detailed-videos-list">
                     <div ng-repeat="video in item.videos" >     
@@ -45,13 +40,30 @@
                         <div class="text-holder">{{video.caption}}</div>
                     </div>
                 </div>
-                <div id="slider">
-                    <img src="images/image1.jpg" alt="">
-                    <img data-src="images/image2.jpg" src="" alt="">
-                    <img data-src="images/image3.jpg" src="" alt="">
+                
+<!--
+                <div class="container slider">
+                    <img ng-repeat="slide in item.images" class="slide slide-animation nonDraggableImage"
+         ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
+         ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.imageLink}}">
+
+                    <a class="arrow prev" href="#" ng-click="nextSlide()"></a>
+                    <a class="arrow next" href="#" ng-click="prevSlide()"></a>
+                    <nav class="nav_o">
+                        <div class="wrapper">
+                            <ul class="dots">
+                                <li class="dot" ng-repeat="slide in item.images">
+                                    <a href="#/detailedView/{{detail_page_id}}" +  ng-class="{'active':isCurrentSlideIndex($index)}"
+                                       ng-click="setCurrentSlideIndex($index);">{{slide.caption}}</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
+-->
+                
+                
                 <div class="detailed-image-list">
-                    <div ng-repeat="image in item.images">
+                    <div id="slider" ng-repeat="image in item.images">
                         <div class="detailed-image-holder">
                             <img src="{{image.imageLink}}" />
                         </div>
@@ -84,7 +96,12 @@
 
     </div>
 </div>
-<script src="js/ideal-image-slider.min.js"></script>
+<!--
+<link rel="stylesheet" href="css/ideal-image-slider.css">
+    <link rel="stylesheet" href="css/default.css">
+-->
+<!--<script src="js/ideal-image-slider.min.js"></script>-->
+<!--
 <script>
 debugger
     var slider = new IdealImageSlider.Slider({
@@ -95,5 +112,10 @@ debugger
 slider.start();
 
 </script>
+-->
     
-<!--<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/32481053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->
+<!--
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/32481053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" style="
+    width: 500px;
+    margin-left: 200px;
+"></iframe>-->

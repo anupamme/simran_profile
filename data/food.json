@@ -9,31 +9,25 @@
         {
             "type": "leaf",
             "detailedLinkID": "6",
-            "title": "Entree",
+            "title": "Story of the urban food chain",
             "coverImage": "../images/dip/cover.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "7",
-            "title": "Urban Food Chain",
+            "title": "Entrée",
             "coverImage": "../images/dip/cover.jpg"
         },
         {
             "type": "leaf",
-            "detailedLinkID": "8",
-            "title": "Entree",
-            "coverImage": "../images/dip/cover.jpg"
-        },
-        {
-            "type": "leaf",
-            "detailedLinkID": "9",
-            "title": "Appetite",
+            "detailedLinkID": "18",
+            "title": "Community Uncookbook",
             "coverImage": "../images/dip/cover.jpg"
         },
         {
             "type": "node",
-            "detailedLinkID": "food_experiments",
-            "title": "Experiments",
+            "next": "investigations",
+            "title": "Investigations",
             "coverImage": "../images/dip/cover.jpg"
         }
     ]

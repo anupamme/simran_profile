@@ -31,6 +31,22 @@ avenue.config(function ($routeProvider) {
             templateUrl: 'templates/ethnography.html',
             controller: 'ethnographyController'
         }).
+        when('/graphics', {
+            templateUrl: 'templates/graphics.html',
+            controller: 'graphicsController'
+        }).
+        when('/investigationsdetailedView', {
+            templateUrl: 'templates/investigations.html',
+            controller: 'investigationsController'
+        }).
+        when('/olfactorydetailedView', {
+            templateUrl: 'templates/olfactory.html',
+            controller: 'olfactoryController'
+        }).
+        when('/animationdetailedView', {
+            templateUrl: 'templates/animation.html',
+            controller: 'animationController'
+        }).
         when('/Error', {
         templateUrl: 'templates/error.html'
     }).
@@ -55,6 +71,14 @@ avenue.controller("foodController", ['$scope', '$http', function($scope, $http) 
     })
 }]);
      
+avenue.controller("graphicsController", ['$scope', '$http', function($scope, $http) {
+    $http.get("data/graphics.json", {cache: true}).success(function(data){
+        $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
+     
 avenue.controller("interfaceController", ['$scope', '$http', function($scope, $http) {
     $http.get("data/interfaces.json", {cache: true}).success(function(data){
         debugger
@@ -63,7 +87,37 @@ avenue.controller("interfaceController", ['$scope', '$http', function($scope, $h
         $window.location.href = '#/Error';
     })
 }]);
+
+avenue.controller("investigationsController", ['$scope', '$http', function($scope, $http) {
+    debugger
+    $http.get("data/investigations.json", {cache: true}).success(function(data){
+        debugger
+        $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
      
+avenue.controller("olfactoryController", ['$scope', '$http', function($scope, $http) {
+    debugger
+    $http.get("data/olfactory.json", {cache: true}).success(function(data){
+        debugger
+        $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
+     
+avenue.controller("animationController", ['$scope', '$http', function($scope, $http) {
+    debugger
+    $http.get("data/animation.json", {cache: true}).success(function(data){
+        debugger
+        $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
+
 avenue.controller("ethnographyController", ['$scope', '$http', function($scope, $http) {
     $http.get("data/ethnography.json", {cache: true}).success(function(data){
         debugger
@@ -77,12 +131,35 @@ avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$rou
  
     $scope.item = [];
     debugger
-    $scope.slider = new IdealImageSlider.Slider('#slider');
+//    $scope.slider = new IdealImageSlider.Slider('#slider');
 //    $scope.url = 'data/detailedView.json';
 //    $scope.getIframeSrc = function (videoURL) {
 //        return 'videoURL';
 //    };
+    
+        $scope.direction = 'left';
+        $scope.currentIndex = 0;
+
+        $scope.setCurrentSlideIndex = function (index) {
+            $scope.direction = (index > $scope.currentIndex) ? 'left' : 'right';
+            $scope.currentIndex = index;
+        };
+
+        $scope.isCurrentSlideIndex = function (index) {
+            return $scope.currentIndex === index;
+        };
+
+        $scope.prevSlide = function () {
+            $scope.direction = 'left';
+            $scope.currentIndex = ($scope.currentIndex < $scope.slides.length - 1) ? ++$scope.currentIndex : 0;
+        };
+
+        $scope.nextSlide = function () {
+            $scope.direction = 'right';
+            $scope.currentIndex = ($scope.currentIndex > 0) ? --$scope.currentIndex : $scope.slides.length - 1;
+        };
     debugger
+    $scope.detail_page_id = $routeParams.id
     $http.get("data/detailedView.json", {cache: true}).success(function (data) {
         debugger
         for (var i = 0; i < data.items.length; i++) {
@@ -97,19 +174,41 @@ avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$rou
         }).error(function (data) {
             $window.location.href = '#/Error';
         });
-//    $scope.fetchContent = function () {
-//        debugger
-//        
-//    }
-//    $scope.fetchContent();
+}]).animation('.slide-animation', function () {
+        return {
+            beforeAddClass: function (element, className, done) {
+                var scope = element.scope();
 
-//    $http.get("data/homepage.json", { cache: true }).success(function (data) {
-//        $scope.list = data.items;
-//    }).error(function (data) {
-//        $scope.noDataFound = "No data found";
-//       // $window.location.href = '#/Error';
-//    });
-}]);
+                if (className == 'ng-hide') {
+                    var finishPoint = element.parent().width();
+                    if(scope.direction !== 'right') {
+                        finishPoint = -finishPoint;
+                    }
+                    TweenMax.to(element, 0.5, {left: finishPoint, onComplete: done });
+                }
+                else {
+                    done();
+                }
+            },
+            removeClass: function (element, className, done) {
+                var scope = element.scope();
+
+                if (className == 'ng-hide') {
+                    element.removeClass('ng-hide');
+
+                    var startPoint = element.parent().width();
+                    if(scope.direction === 'right') {
+                        startPoint = -startPoint;
+                    }
+
+                    TweenMax.fromTo(element, 0.5, { left: startPoint }, {left: 0, onComplete: done });
+                }
+                else {
+                    done();
+                }
+            }
+        };
+    });
 
 avenue.filter("nl2br", ['$sce', function ($sce) {
     return function (text) {

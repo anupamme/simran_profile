@@ -240,13 +240,13 @@
                 {
                     "poster":"../images/posterimage.PNG",
                     "videoLink":"https://player.vimeo.com/video/135540900",
-                    "caption":"Salman Khan selfi"
+                    "caption":"Appetite"
                 }
             ]
         },
         {
             "detailedLinkID": "6",
-            "detaildHeader": "Urban Food Chain",
+            "detaildHeader": "Story of the urban food chain",
             "description": "‘We are what we eat’- This is an epigram which validates our long-standing relationship with food. Food besides being a subject of endless passionate discussion within our personal and most intimate lives has historically been a significant indicator of our cultural, ecological and social realms.</p><p>‘Story of Urban Food Chain’ – a public art experiment’ represents the vitality of food design and explores food concepts beyond the table through a technology driven installation with food items as interfaces. So food items acts as a medium to interact, explore, engage in reiterating consumer choices in everyday life.</p><p>The installation is a social experiment to gauge individual reactions to the narrative as well as to the aural and visual interfaces, focussing on the subtle indications towards participants’ food choices. The audience acts as the consumer where he/she goes through the different aspects of the food chain that is part of their daily lives and sees the the paradox of choice. </p><p>To bring out the paradox, the installation, is constructed on the intersection of new media and food, where food and technology traverse at a common meeting ground resulting in varied results. Through carefully crafted interactions and an element of humour in the dialogues, people can interpret the story of the ‘Urban Food Chain’. It uses ubiquitous objects and interactions of everyday life, with an objective to subconsciously alter the perceptions of individuals; to be able to encourage them to question the existing urban food culture and make informed decisions as a consumer.</p><p>The installation offers an insight into our urban food chain, where everything is controlled by corporations, branding and politics driven by the capitalist mindsets. Consumers are left devoid of choices, burdened with unanswered questions, health issues and inflation.</p>",
             "workExhibited": [
             ],
@@ -309,6 +309,11 @@
                 }
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/135270299",
+                    "caption":"Story of Urban Food Chain"
+                }
             ]
         },
         {
@@ -395,7 +400,7 @@
         {
             "detailedLinkID": "14",
             "detaildHeader": "Records for Life: Re-evaluation and Re-design of a Healthcard Framework",
-            "description": "<p>Center for Knowledge Societies (CKS) along with the Bill and Melinda Gates Foundation (BMGF) and the World Health Organisation (WHO) provided a platform for bringing the worlds of health, research and design together. The project studied health systems around child immunisation. The scope of work, laid out in phases, revolved around understanding how a health card, figures in the health ecology of three countries, namely-Bihar, Kenya and Indonesia. Understand existing cultural influences on immunisation and how they can be taken care, in designing a digital format for health records.</p><p>As part of the project, we also managed a global crowdsourcing design challenge. Evaluation framework was created to select 30 cards from 433 entries of a crowdsourcing competition and testing them in these respective countries to compare and understand various aspects of the chosen cards that work with the target audience.</p><p>Qualitative and quantitative research methods were applied to collect data. This data provided insights which were then used to create high impact designs and suggest technological recommendations. </p><p>Field work was followed by post field analysis of the three locations resulting in various internal workshops, discussions and brainstorming sessions. The analysis was summed up as design recommendations in a Records for Life report and presentation given to a panel of experts from WHO, UNICEF, BMGF, IxDA, GAVI in London. </p><p>It was a proud and humbling moment when Melinda Gates named CKS as one of the nine players in the world changing the face of Routine Immunization and Records for Life was named as one of the projects doing just that. </p><p>For the entire article, please click:  http://www.theguardian.com/global-development-professionals-network/2014/apr/28/melinda-gates-vaccines-immunisation-list?CMP=twt_gu</p>",
+            "description": "<p>Center for Knowledge Societies (CKS) along with the Bill and Melinda Gates Foundation (BMGF) and the World Health Organisation (WHO) provided a platform for bringing the worlds of health, research and design together. The project studied health systems around child immunisation. The scope of work, laid out in phases, revolved around understanding how a health card, figures in the health ecology of three countries, namely-Bihar, Kenya and Indonesia. Understand existing cultural influences on immunisation and how they can be taken care, in designing a digital format for health records.</p><p>As part of the project, we also managed a global crowdsourcing design challenge. Evaluation framework was created to select 30 cards from 433 entries of a crowdsourcing competition and testing them in these respective countries to compare and understand various aspects of the chosen cards that work with the target audience.</p><p>Qualitative and quantitative research methods were applied to collect data. This data provided insights which were then used to create high impact designs and suggest technological recommendations. </p><p>Field work was followed by post field analysis of the three locations resulting in various internal workshops, discussions and brainstorming sessions. The analysis was summed up as design recommendations in a Records for Life report and presentation given to a panel of experts from WHO, UNICEF, BMGF, IxDA, GAVI in London. </p><p>It was a proud and humbling moment when Melinda Gates named CKS as one of the nine players in the world changing the face of Routine Immunization and Records for Life was named as one of the projects doing just that. </p><p>For the entire article, <a href=\"http://www.theguardian.com/global-development-professionals-network/2014/apr/28/melinda-gates-vaccines-immunisation-list?CMP=twt_gu\">please click here</a></p>",
             "workExhibited": [
             ],
             "images": [
@@ -435,7 +440,129 @@
             ],
             "videos":[
             ]
+        },
+        {
+            "detailedLinkID": "18",
+            "detaildHeader": "The Community Uncookbook",
+            "description": "<p>It is a community on facebook that was started after a food residency at Khoj Artists Association, New Delhi, India. Like minded friends with concerns about food got together and decided to reach out to many more people through social media. We developed a manifesto and started the community on the lines of health, organic, minimally processed food on the lines of raw and vegan. We wanted people to be able to have access to alternative food cultures that talk about health, nutrition, lifestyle to question existing food systems. Helping people make informed choices about the food that they put in their bodies.</p><p>Community Uncookbook can be found online through this link: <a href=\"https://www.facebook.com/groups/communityuncookbook/\">Facebook Community</a></p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "19",
+            "detaildHeader": "Distant Ties",
+            "description": "<p>A pair of smart objects to transfer a person’s tangible presence into other person’s environment, through which they can devise new ways to play, communicate and share.</p><p>Today the world is in the age of transmission where everything is disembodied and is getting reduced to a signal. The pace of the world is increasing with advancement in technology and it seems the distances are becoming smaller. Whereas the physicality and the old world charm of tangible objects is getting lost. We came up with a series of smart emotional objects connected over long distance. They provide exciting, tangible and non-verbal connection to your distant loved one. The purpose of the communication was to transfer a person’s tangible presence into other person’s environment, through which they can device new ways to play, communicate and share. The meaning of the messages will become personalized as the pair makes their own codes or could be left abstract.</p><p>a) <b>Liquimo</b> is a pair of cups that react to temperature change. If a hot/cold liquid is poured into one, the other will glow with light symbolic of the temperature. The idea is to sense a person’s daily activity and transmit it to another person’s environment. A pair of connected people in this way could know when the other is having morning tea or an evening drink.<br />b) <b>Whiff</b> is a pair of connected, playful pinwheels that move only when the other one is blown on. (tangible to tangible, smart phone to tangible)<br /><br /><i>Collaborator</i>: Manasi Agarwal</p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "20",
+            "detaildHeader": "Electrograph",
+            "description": "<p>Displays the consumption of electricity in real time and make the larger implications of wastage communicated in an easy, tangible & visual manner. Electricity is one of the most important entities in our daily lives; as well as in the overall functioning of a country. In the recent past, India’s power consumption has been rapidly increasing, due to steady economic growth and a burgeoning population. If we were made aware of the consequences of using and wasting electricity on our natural environment.. The project is placed within the domain of visualisation, environmental issues, sustainability and surveillance of human activity. Combined with it is a tangible interface through which a display of human interactions and responses is possible. It intends to display the consumption of electricity in real time and make the larger implications of wastage communicated in an easy, tangible and visual manner.</p><p>We constructed a structure that reminds one of an old spice cabinet to house the various components. Solenoid valves were used to control the amount of sand falling into the measuring jars. Each solenoid could be connected to the lights, fans or plug point switches. It has more of an impact than just looking at a bundle of numbers on a digital meter because one can see the tangible change in the level of sand, and how much a certain amount of electricity costs in terms of the environment.<br /><br /><i>Collaborator</i>: Manasi Agarwal</p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "21",
+            "detaildHeader": "Olfactory Interfaces",
+            "description": "<p>It was an Interaction Design classroom project. The beginning was food which lead to exploration of olfactory interfaces, with development of a few interfaces. Few of the interfaces were smell books that could give off smells related to characters or chapters to enhance reading experience, a swearing meter that gives out bad smell when you swear, disc burner that gives a burning smell when your disc is ready,  regulating air quality in smoking zones.  The project progressed to research upon Anosmia. I found that tar can have similar effect on smokers and decided to investigate this phenomenon further. And <a href=\"#/detailedView/22\">Cigcheck</a> was the outcome of this investigation.</p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "22",
+            "detaildHeader": "CigCheck",
+            "description": "<p>Cigarettes have an image, an aura and they are addictive. Smokers are already bombarded with a lot of hard hitting visual content (Ads, Packs, and Graphics) which has not proven very effective. People still smoke due to different individual reasons. A few touch points I wanted to address was the realization of the no. of cigarettes smoked, reminder at the time of smoking, reinstating the negative impacts of smoking even if it is in a subtle manner and resulting in a change of behaviour. With a lot of existing products, CigCheck finds its own niche with regards to personalized interaction that it provides to making the smoker more conscious of his / her smoking habits.</p><p>It is a personalized smart cigarette case designed to be unobtrusive and to pass on the message in an understated manner unlike messages or graphics on traditional packs. It has been designed for people who are looking for ways to quit or to monitor their consumption. The smart pack has the capabilities of sending the consumption data over the net, computing the data, generating a graphic on the pack in real time with every smoked cigarette and sending back a visual graphical feedback at the end of the day. Only the user will be able to interpret the graphic as the consumption pattern generated will be different every time. It displays randomly generated circles mapped to the no. of cigarettes consumed and the distance between the circles to the time gap between the smoked cigarettes. </p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "23",
+            "detaildHeader": "Medicine Box",
+            "description": "<p></p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "24",
+            "detaildHeader": "Re-imagining Adobe Illustrator for Tablets",
+            "description": "<p>Remediation of the painting palette, trying to incorporate the real life painting experiences on Tablets through the technological capabilities of the medium. The design brief by Adobe was to look at redefining the tools in an already existing desktop based format to that of a tablet. People are using the Tablet to create illustrations, artworks, graphics and presentations. The thought process lay in the domain of creating new tools, exploiting the additional capabilities of the medium (built in sensors, touch), optimizing interactions with a natural experience which was an amalgamation of real and virtual.</p><p>Remediation of the painting palette tries to incorporate the real life painting experience into the digital world. It provides capabilities of the touch for direct manipulation of paint and familiar painting gestures giving the user natural immersion. Simple design principles were also kept in mind while designing the interface. The mixing area of the palette can manipulate color, transparency and consistency. Consistency and transparency are interdependent in the real painting experience but can be separated in the digital environment. With a natural simple finger rotation gesture, like a brush on a palette the consistency and transparency can be changed. The palette also uses the capabilities of the gyroscope in the tablet to further enhance the experience of painting on tablets like dripping of paint.</p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "25",
+            "detaildHeader": "Flush, toilet finder in India",
+            "description": "<p>Classroom project NTADBM 2011 where IIM & NID had collaborated.</p><p>Flush is a toilet finder mobile application, a service that helps you find the nearest public toilet. The application was born from insights of daily problems of people in urban India. There is general lack of proper sanitation and availability of toilets in most public places in India. Also information about the kind and condition of the toilet is missing. This is due to improper signage and varied range available: western, Indian, urinal, compost pits, etc.</p><p>It’s a GPS based app, which narrows down where you are with just one click and gives the address of toilets within a given radius based upon geomapping. The service is available on smartphones through application and other phones through SMS service.The application can be downloaded from the internet and registered users can rate each toilet on a five-star scale and give comments and reviews. Users can also add new locations with toilets from their mobile device, take photos of the facilities and upload it directly to the online portal. Search options for specific queries can be made like Indian style or western, paid or unpaid, type of location (mall, restaurant, etc) and availability of handicap facilities.</p><p>The application is mainly targeted at women and the tourism sector. The navigation and the GUI of the app has been designed keeping specifically to this target group.</p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "26",
+            "detaildHeader": "BINDU",
+            "description": "<b>Origin / metamorphosis</b> <br /><p>A short animation made on the theme of origin or metamorphosis. Taking inspiration from the movie Powers of Ten by Charles & Ray Eames I wanted to start and end with a Dot (Bindu) hence the name of the animation. The Dot (Bindu) progresses, transforms and morphs into different life forms in nature giving a feeling of origin or beginning.</p><br /> Medium: Clay & Paper <br />Stop motion animation; 350 frames",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "27",
+            "detaildHeader": "PHOTO BALLET",
+            "description": "<b>Dream of a Digital Camera</b> <br /><p>Do robots dream of mechanical sheep? A classroom exercise to select a machine and depict what the machine will dream about. I made an experimental animation showing, what will the nightmare of a Digital Camera look like. Inspired from a mechanical ballet, I played around with a limited number of shapes, colours and photography techniques.</p><br /> Medium: Hand painted cardboard cutouts <br />Stop motion animation; 450 frames",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "28",
+            "detaildHeader": "Free Falling",
+            "description": "<p>An attempt to remediate two very old oral media forms – poetry and public speaking, into a film. Documentation of the project for further details.<p></p>Today’s world of consumerism and material pursuit is what’s ‘real’ for us. Unknowingly enslaved in the age of the image and its shadow, we find it difficult to extricate ourselves from this ever growing web of visual and electronic media. So we wonder -what is really the freedom that we have fought to seek? ‘Free Falling’ prompts the user to engage in a debate with herself and confront the paradox of freedom that exists.<p></p>It features Indian poet Rabindranath Tagore’s poem ‘Where the mind is without fear’ (1901), Martin Luther King Jr.’s speech ‘I have a dream’ (1963) and Jawaharlal Nehru’s speech ‘Tryst with destiny’ (1947). All of them talk about freedom in some sense. While Nehru speaks about the freedom of the nation state and King about freedom from inequality and racial bias, Tagore speaks about freedom of the inner self. ‘Free Falling’ essentially remediates the context in which these were written/ spoken. Also the final medium being a film, liberties offered by the medium have been taken to modify the linear structure of the poems and speech to suit our context.</p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
         }
+        
         
     ]
 }

@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-6" ng-repeat="item in items">
             <a class="content-holder" href="#/{{item.detailedLinkID}}">
-                <div class="image-holder">
+                <div class="image-holder index_{{$index % 2}}">
                     <img src="{{item.coverImage}}"/>
 <!--                    <span class="text-holder"><span>{{item.title}}</span></span>-->
                 </div>

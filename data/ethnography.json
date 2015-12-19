@@ -2,26 +2,32 @@
     "items": [
         {
             "type": "leaf",
+            "detailedLinkID": "1",
+            "title": "Aam Khas Bagh",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "type": "leaf",
             "detailedLinkID": "13",
-            "title": "Understanding Aural Life Worlds",
+            "title": "Aural Life Worlds",
             "coverImage": "../images/dip/cover.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "14",
-            "title": "Records for Life: Re-evaluation and Re-design of a Healthcard Framework",
+            "title": "Records for Life",
             "coverImage": "../images/dip/cover.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "15",
-            "title": "Taj Ganj: Taking Our Heritage Forward",
+            "title": "Taj Ganj",
             "coverImage": "../images/dip/cover.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "16",
-            "title": "Samsung Research & Development, India",
+            "title": "Samsung R&D",
             "coverImage": "../images/dip/cover.jpg"
         }
     ]

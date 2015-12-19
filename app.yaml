@@ -1,0 +1,27 @@
+application: simran-1099
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /js
+  static_dir: js
+  
+- url: /data
+  static_dir: data
+  
+- url: /images
+  static_dir: images
+  
+- url: /css
+  static_dir: css
+
+- url: /fonts
+  static_dir: fonts
+  
+- url: /templates
+  static_dir: templates
+
+- url: /.*
+  script: simran.application
