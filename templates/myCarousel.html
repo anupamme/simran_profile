@@ -1,0 +1,18 @@
+<div class="container" ng-controller="slideshowController">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" ng-repeat="img in item.images" class="{active : ({{$index}} === 0)}" data-slide-to="{{$index}}"></li>
+      </ol>
+      <div class="carousel-inner">
+<!--          <div ng-class="{item: true, active : true}" ng-repeat="img in slides"> <img ng-src="{{img}}" alt="Slide numder" />-->
+        <div ng-class="{item: true, active : ({{$index}} === 0)}" ng-repeat="img in item.images"> <img ng-src="{{img.imageLink}}" alt="Slide numder {{$index}}">
+          <div class="container">
+            <div class="carousel-caption"> </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> 
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> 
+      </div>
+</div>

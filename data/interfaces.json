@@ -23,6 +23,18 @@
             "detailedLinkID": "20",
             "title": "Electrograph",
             "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "type": "leaf",
+            "detailedLinkID": "24",
+            "title": "Re-imagining Illustrator",
+            "coverImage": "../images/dip/cover.jpg"
+        },
+        {
+            "type": "leaf",
+            "detailedLinkID": "25",
+            "title": "Flush",
+            "coverImage": "../images/dip/cover.jpg"
         }
     ]
 }

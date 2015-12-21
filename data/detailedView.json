@@ -36,31 +36,109 @@
             ],
             "images": [
                 {
-                    "imageLink": "../images/akb/1.JPG",
+                    "imageLink": "../images/aam_khas/1.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/akb/3.JPG",
+                    "imageLink": "../images/aam_khas/2.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/akb/4_1.JPG",
+                    "imageLink": "../images/aam_khas/3.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/akb/4_2.JPG",
+                    "imageLink": "../images/aam_khas/4.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/akb/5.JPG",
+                    "imageLink": "../images/aam_khas/5.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/akb/6.JPG",
+                    "imageLink": "../images/aam_khas/6.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/akb/7.JPG",
+                    "imageLink": "../images/aam_khas/7.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/8.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/9.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/10.jpg",
+                    "caption": ""
+                }
+            ],
+            "images_2": [
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/1.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/2.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/3.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/4.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/5.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/6.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/7.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/8.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/9.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/10.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/11.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/12.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/13.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/14.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/15.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aam_khas/akb-ex/16.JPG",
                     "caption": ""
                 }
             ],
@@ -150,7 +228,7 @@
             "videos":[
                 {
                     "poster":"../images/posterimage.PNG",
-                    "videoLink":"videos/interviews.mp4",
+                    "videoLink":"https://drive.google.com/file/d/0BxLckpctyfieS0wxT3dEemZUTkU/view?usp=sharing",
                     "caption":"Salman Khan selfi"
                 }
             ]
@@ -216,23 +294,93 @@
             ],
             "images": [
                 {
-                    "imageLink": "../images/khoj/1.JPG",
+                    "imageLink": "../images/appetite/1a.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/khoj/2.JPG",
+                    "imageLink": "../images/appetite/1b.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/khoj/4.JPG",
+                    "imageLink": "../images/appetite/1c.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/khoj/5.JPG",
+                    "imageLink": "../images/appetite/1d.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/khoj/3.JPG",
+                    "imageLink": "../images/appetite/1e.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/1f.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/1g.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/1h.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/1i.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/1j.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/1k.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/1l.JPG",
+                    "caption": ""
+                }
+            ],
+            "images_2": [
+                {
+                    "imageLink": "../images/appetite/2a.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2b.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2c.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2d.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2e.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2f.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2g.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2h.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2i.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/appetite/2j.JPG",
                     "caption": ""
                 }
             ],
@@ -252,39 +400,57 @@
             ],
             "images": [
                 {
-                    "imageLink": "../images/dip/1.JPG",
+                    "imageLink": "../images/soufc/1.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/2.JPG",
+                    "imageLink": "../images/soufc/2.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/3.JPG",
+                    "imageLink": "../images/soufc/3.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/4.JPG",
+                    "imageLink": "../images/soufc/4.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/5.JPG",
+                    "imageLink": "../images/soufc/5.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/6.JPG",
+                    "imageLink": "../images/soufc/6.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/7.JPG",
+                    "imageLink": "../images/soufc/7.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/8.JPG",
+                    "imageLink": "../images/soufc/8.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/dip/9.JPG",
+                    "imageLink": "../images/soufc/9.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/soufc/10.JPG",
+                    "caption": ""
+                }
+            ],
+            "images_2": [
+                {
+                    "imageLink": "../images/soufc/diag1.jpeg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/soufc/diag2.jpeg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/soufc/diag3.jpeg",
                     "caption": ""
                 }
             ],
@@ -312,7 +478,7 @@
                 {
                     "poster":"../images/posterimage.PNG",
                     "videoLink":"https://player.vimeo.com/video/135270299",
-                    "caption":"Story of Urban Food Chain"
+                    "caption":""
                 }
             ]
         },
@@ -327,6 +493,54 @@
                 }
             ],
             "images": [
+                {
+                    "imageLink": "../images/entree/1.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/2.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/3.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/4.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/5.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/6.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/7.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/8.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/9.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/10.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/11.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/entree/12.JPG",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -338,6 +552,18 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/investigations_food/dinnertable1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/investigations_food/dinnertable2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/investigations_food/dinnertable3.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -349,6 +575,26 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/investigations_food/aural0.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/investigations_food/aural1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/investigations_food/aural2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/investigations_food/aural3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/investigations_food/aural4.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -360,6 +606,14 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/investigations_food/chattyplanter_1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/investigations_food/chattyplanter_2.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -371,6 +625,10 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/investigations_food/croon_food.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -382,6 +640,10 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/investigations_food/in_reflection.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -404,6 +666,76 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/recordsforlife/1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/4.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/5.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/6.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/7.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/8.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/9.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/10.jpg",
+                    "caption": ""
+                }
+            ],
+            "images_2": [
+                {
+                    "imageLink": "../images/recordsforlife/2ndpart/1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/2ndpart/2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/2ndpart/3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/2ndpart/4.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/2ndpart/5.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/2ndpart/6.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/recordsforlife/2ndpart/7.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -415,6 +747,60 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/taj/0.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/1.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/2.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/3.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/4.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/5.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/6.JPG",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/7.JPG",
+                    "caption": ""
+                }
+            ],
+            "images_2": [
+                {
+                    "imageLink": "../images/taj/ethno1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/ethno2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/tag_east_1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/tag_east_2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/taj_east_3.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -448,6 +834,26 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/uncookbook/facebook.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/uncookbook/1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/uncookbook/2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/uncookbook/3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/uncookbook/4.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -461,6 +867,11 @@
             "images": [
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/33723643",
+                    "caption":""
+                }
             ]
         },
         {
@@ -472,6 +883,11 @@
             "images": [
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/35735240",
+                    "caption":""
+                }
             ]
         },
         {
@@ -492,6 +908,68 @@
             "workExhibited": [
             ],
             "images": [
+                {
+                    "imageLink": "../images/cigcheck/1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/4.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/5.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/6.jpg",
+                    "caption": ""
+                }
+            ],
+            "images_2": [
+                {
+                    "imageLink": "../images/cigcheck/P1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P4.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P5.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P6.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P7.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P8.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P9.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
@@ -516,6 +994,11 @@
             "images": [
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/33247164",
+                    "caption":""
+                }
             ]
         },
         {
@@ -527,6 +1010,11 @@
             "images": [
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/34071470",
+                    "caption":""
+                }
             ]
         },
         {
@@ -544,6 +1032,17 @@
             "detailedLinkID": "27",
             "detaildHeader": "PHOTO BALLET",
             "description": "<b>Dream of a Digital Camera</b> <br /><p>Do robots dream of mechanical sheep? A classroom exercise to select a machine and depict what the machine will dream about. I made an experimental animation showing, what will the nightmare of a Digital Camera look like. Inspired from a mechanical ballet, I played around with a limited number of shapes, colours and photography techniques.</p><br /> Medium: Hand painted cardboard cutouts <br />Stop motion animation; 450 frames",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "28",
+            "detaildHeader": "Free Falling",
+            "description": "<p>An attempt to remediate two very old oral media forms – poetry and public speaking, into a film. Documentation of the project for further details.<p></p>Today’s world of consumerism and material pursuit is what’s ‘real’ for us. Unknowingly enslaved in the age of the image and its shadow, we find it difficult to extricate ourselves from this ever growing web of visual and electronic media. So we wonder -what is really the freedom that we have fought to seek? ‘Free Falling’ prompts the user to engage in a debate with herself and confront the paradox of freedom that exists.<p></p>It features Indian poet Rabindranath Tagore’s poem ‘Where the mind is without fear’ (1901), Martin Luther King Jr.’s speech ‘I have a dream’ (1963) and Jawaharlal Nehru’s speech ‘Tryst with destiny’ (1947). All of them talk about freedom in some sense. While Nehru speaks about the freedom of the nation state and King about freedom from inequality and racial bias, Tagore speaks about freedom of the inner self. ‘Free Falling’ essentially remediates the context in which these were written/ spoken. Also the final medium being a film, liberties offered by the medium have been taken to modify the linear structure of the poems and speech to suit our context.</p>",
             "workExhibited": [
             ],
             "images": [
