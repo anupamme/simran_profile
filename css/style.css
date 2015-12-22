@@ -32,7 +32,7 @@ font-family: "futura" !important;
 }
 
 .nav {
-    padding-right: 4.5em
+    padding-right: 3.0em
 }
 
 #about{
@@ -181,13 +181,13 @@ text-align: center;
 }
 
 .index_i_1 {
-    margin-left: 3.4em;
-    margin-right: 1.1em;
+    margin-left: 2.0em;
+    margin-right: 1.5em;
 }
 
 .index_i_2 {
-    margin-right: 3.0em;
-    margin-left: 1.2em;
+    margin-right: 3.2em;
+    margin-left: 0.0em;
 }
 
 
@@ -297,4 +297,7 @@ body {
 }
 .col-md-8 {
     width: 60%
+}
+.col-md-4 {
+/*    margin-left: 4.5em*/
 }
