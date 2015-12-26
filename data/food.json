@@ -4,31 +4,31 @@
             "type": "leaf",
             "detailedLinkID": "5",
             "title": "Appetite",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/appetite/2a.JPG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "6",
             "title": "Story of the urban food chain",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/soufc/1.JPG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "7",
             "title": "Entrée",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/entree/11.JPG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "18",
             "title": "Community Uncookbook",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/uncookbook/1.jpg"
         },
         {
             "type": "node",
             "next": "investigations",
             "title": "Investigations",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/investigations_food/dinnertable1.jpg"
         }
     ]
 }

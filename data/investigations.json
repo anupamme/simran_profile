@@ -4,31 +4,31 @@
             "type": "leaf",
             "detailedLinkID": "8",
             "title": "Dinner Table",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/investigations_food/dinnertable1.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "9",
             "title": "Aural physis",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/investigations_food/aural1.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "10",
             "title": "Chatty Planters",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/investigations_food/chattyplanter_1.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "11",
             "title": "Croon food",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/investigations_food/croon_food.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "12",
             "title": "In reflection",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/investigations_food/in_reflection.jpg"
         }
     ]
 }
