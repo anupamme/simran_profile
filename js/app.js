@@ -77,14 +77,27 @@ avenue.controller("homeController", ['$scope', '$http', function ($scope, $http)
     }).error(function (data) {
         $window.location.href = '#/Error';
     });
+
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
 
 avenue.controller("foodController", ['$scope', '$http', function($scope, $http) {
-    $http.get("data/food.json", {cache: true}).success(function(data){
+    $http.get("data/food.json", { cache: true }).success(function (data) {
         $scope.items = data.items;
-    }).error(function(data) {
+    }).error(function (data) {
         $window.location.href = '#/Error';
-    })
+    });
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
      
 avenue.controller("graphicsController", ['$scope', '$http', function($scope, $http) {

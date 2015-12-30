@@ -17,6 +17,7 @@ body {
 .header-space {
     min-height: 100px;
 }
+
 @media (min-width: 1200px) {
     .container {
         width: 1030px !important;
@@ -46,6 +47,15 @@ body {
     font-size: 1.4em;
 }
 
+.slider-image {
+    min-height: 350px;
+    overflow: hidden;
+    max-height: 350px;
+}
+
+    .slider-image > img {
+        background-size: cover;
+    }
 
 .logo-desc {
     color: #222;
@@ -94,11 +104,90 @@ body {
     overflow: hidden;
 }
 
-.image-holder > img {  
-    display: block;
-    width: 105%;
-    height: 320px;
+    .image-holder > img {
+        display: block;
+        width: 100%;
+        height: 320px;
+        cursor: pointer;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+        /*.image-holder > img:hover {
+            width: 100%;
+            height: 310px;
+        }*/
+
+/*.image-holder-2 > img:hover {
+    width: 100%;
+    height: 220px;
+}*/
+
+.image-holder-2 {
+    min-height: 230px;
+    overflow: hidden;
+    max-height: 230px;
+}
+
+    .image-holder-2 > img {
+        display: block;
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+        cursor: pointer;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+.text-holder {
+ position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
     cursor: pointer;
+    display: table;
+    width: 87.5%;
+    height: 230px;
+    text-align: center;
+    z-index: 5;
+    top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+.text-holder  > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.text-holder-homepage {
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    width: 90.5%;
+    height: 310px;
+    text-align: center;
+    z-index: 5;
+    top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.4em;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -106,25 +195,15 @@ body {
     transition: all 1s ease;
 }
 
-    .image-holder > img:hover {
-        width: 100%;
-        height:310px;
+    .text-holder-homepage > span {
+        display: table-cell;
+        vertical-align: middle;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
     }
-
-.text-holder {
-    font-size: 14px;
-    /*line-height: 1.6em;*/
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .06em;
-    text-align: center;
-    font-weight: bold;
-    font-style: normal;
-    color: #404040;
-    padding-top: 15px;
-    height: 56px;
-    overflow: hidden;
-}
 
 span.text-holder {
     background: rgba(0,0,0,0.5);
@@ -153,14 +232,18 @@ overflow: hidden;
     opacity: 0;
 }
 
-    span.text-holder span {
-        display: table-cell;
-        text-align: left;
-        vertical-align: top;
-    }
+.navbar {
+    margin-bottom: 0px;
+}
+
+span.text-holder span {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
 
 .content-holder {
-    margin-top: 15px;
+    margin-top: 40px;
     display: block;
     background-size: cover;
     border-radius: 5px;
@@ -221,7 +304,6 @@ overflow: hidden;
     letter-spacing: .06em;
     font-weight: 300;
     font-style: normal;
-    margin-left: 1.0em;
 }
 
 .detailed-header-details {
@@ -235,9 +317,9 @@ overflow: hidden;
     font-style: normal;
 }
 
-.detailed-media-list {
+/*.detailed-media-list {
     margin-right: -2.5em;
-}
+}*/
 
 .detailed-description {
     font-size: 0.9em;
@@ -247,8 +329,7 @@ overflow: hidden;
     text-decoration: none;
     font-weight: 300;
     font-style: normal;
-    /*margin: 0 0 1em;*/
-    margin-left: 1.0em;
+
 }
 
 .detailed-image {
@@ -307,12 +388,13 @@ body {
 .col-md-4 {
     /*    margin-left: 4.5em*/
 }
+
 .profile-pic-cont {
-        overflow: hidden;
+    overflow: hidden;
     width: 300px;
     margin: 0 auto;
     border-radius: 50%;
     height: 300px;
     background-image: url("../images/sim_profile.jpg");
-     background-size: cover;
+    background-size: cover;
 }
