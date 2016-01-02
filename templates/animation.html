@@ -1,10 +1,10 @@
 <div class="container" ng-controller="animationController">
     <div class="row">
         <div class="col-md-3" ng-repeat="item in items">
-            <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}">
-                <div class="image-holder index_i_{{$index % 3}}">
+            <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+                <div class="image-holder-2 index_i_{{$index % 3}}">
                     <img src="{{item.coverImage}}"/></div>
-                <div class="text-holder">{{item.title}}</div>
+                <div class="text-holder" ng-show="hoverEdit"><span>{{item.title}}</span></div>
             </a>
         </div>          
     </div>

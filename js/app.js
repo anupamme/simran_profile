@@ -106,6 +106,12 @@ avenue.controller("graphicsController", ['$scope', '$http', function($scope, $ht
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
      
 avenue.controller("interfaceController", ['$scope', '$http', function($scope, $http) {
@@ -163,6 +169,12 @@ avenue.controller("animationController", ['$scope', '$http', function($scope, $h
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
      
 avenue.controller("mediaController", ['$scope', '$http', function($scope, $http) {
@@ -173,6 +185,12 @@ avenue.controller("mediaController", ['$scope', '$http', function($scope, $http)
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
 
 avenue.controller("advertizingController", ['$scope', '$http', function($scope, $http) {
@@ -182,6 +200,12 @@ avenue.controller("advertizingController", ['$scope', '$http', function($scope, 
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
     
 avenue.controller("graphicDetailsController", ['$scope', '$http', function($scope, $http) {
@@ -190,6 +214,12 @@ avenue.controller("graphicDetailsController", ['$scope', '$http', function($scop
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
      
 avenue.controller("detailLandscapeController", ['$scope', '$http', function($scope, $http) {
