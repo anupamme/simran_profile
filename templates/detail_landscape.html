@@ -2,6 +2,14 @@
     <div class="row">
         <div class="detailed-content">
             <div class="col-md-6">
+                <div>
+                    <div class="detailed-header">{{items.left.detaildHeader}}</div>
+                    <br />
+                    <div class="detailed-description">
+                        <p ng-bind-html="items.left.description | nl2br"></p>
+                    </div>
+                    <br />
+                </div>
                 <div class="detailed-image-list">
                     <div ng-repeat="image in items.left.images">
                         <div class="detailed-image-holder">
@@ -13,7 +21,7 @@
                 <div class="detailed-image-list">
                     <div ng-repeat="sound in items.left.sound_clips">
                         <div class="detailed-image-holder">
-                            <iframe ng-src="{{sound.soundlink | youtubeEmbedUrl}}" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <iframe ng-src="{{sound.soundlink | youtubeEmbedUrl}}" width="100%" height="125" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                         <br />
                     </div>
@@ -66,6 +74,59 @@
                 
             </div>
             <div class="col-md-6">
+                <div class="detailed-image-list">
+                    <div ng-repeat="sound in items.right.sound_clips">
+                        <div class="detailed-image-holder">
+                            <iframe ng-src="{{sound.soundlink | youtubeEmbedUrl}}" width="100%" height="125" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <div class="detailed-media-list">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item " ng-repeat="img in items.right.slide_show_1" ng-class='{active:$first}' >
+                                <img src="{{img.imageLink}}" />
+                                <div class="carousel-caption">
+                                       {{img.caption}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" data-target="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" data-target="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br />
+                    <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item " ng-repeat="img in items.right.slide_show_2" ng-class='{active:$first}' >
+                                <img src="{{img.imageLink}}" />
+                                <div class="carousel-caption">
+                                       {{img.caption}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" data-target="#carousel-example-generic-2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" data-target="#carousel-example-generic-2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
                 <div class="detailed-image-list">
                     <div ng-repeat="image in items.right.images">
                         <div class="detailed-image-holder">

@@ -1,12 +1,32 @@
 {
     "left": {
+        "detaildHeader": "Understanding Aural Life Worlds",
+        "description": "<p>Ethnography project to understand the Aural Life World of an Ethnic group to map lived experiences and aural landscapes.  To make sense of sounds which may not exist in the real world but have meanings for the group or the community by making a visual artefact.</p>",
         "images": [
             {
                 "imageLink": "../images/aural_life/1.jpg",
                 "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/2.jpg",
+                "caption": ""
             }
         ],
-        "sound_clips": [
+       "scribd": [
+            {
+                "scribd_link": "",
+                "caption": ""
+            }
+        ]
+    },
+    "right": {
+        "images": [
+            {
+                "imageLink": "../images/aural_life/3.jpg",
+                "caption": ""
+            }
+        ],
+         "sound_clips": [
             {
                 "soundlink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/32481053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
                 "caption": ""
@@ -114,26 +134,6 @@
                 "caption": ""
             }
         ],
-        "scribd": [
-            {
-                "scribd_link": "",
-                "caption": ""
-            }
-        ]
-    },
-    "right": {
-        "images": [
-            {
-                "imageLink": "../images/aural_life/2.jpg",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/3.jpg",
-                "caption": ""
-            }
-        ],
-        "sound_clips": [],
-        "slide_show": [],
         "scribd": []
     }
 }

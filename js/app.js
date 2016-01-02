@@ -115,6 +115,12 @@ avenue.controller("interfaceController", ['$scope', '$http', function($scope, $h
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
 
 avenue.controller("investigationsController", ['$scope', '$http', function($scope, $http) {
@@ -141,6 +147,12 @@ avenue.controller("olfactoryController", ['$scope', '$http', function($scope, $h
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
      
 avenue.controller("animationController", ['$scope', '$http', function($scope, $http) {
@@ -197,6 +209,12 @@ avenue.controller("ethnographyController", ['$scope', '$http', function($scope, 
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
      
 avenue.controller("slideshowController", ['$scope', '$http', function ($scope, $http, $window, $routeParams) {
