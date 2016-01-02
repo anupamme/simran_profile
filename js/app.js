@@ -59,9 +59,9 @@ avenue.config(function ($routeProvider) {
             templateUrl: 'templates/graphicDetails.html',
             controller: 'graphicDetailsController'
         }).
-        when('/myCarousel', {
-            templateUrl: 'templates/myCarousel.html',
-            controller: 'slideshowController'
+        when('/aurallifedetailedView', {
+            templateUrl: 'templates/detail_landscape.html',
+            controller: 'detailLandscapeController'
         }).
         when('/Error', {
         templateUrl: 'templates/error.html'
@@ -125,6 +125,12 @@ avenue.controller("investigationsController", ['$scope', '$http', function($scop
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
 }]);
      
 avenue.controller("olfactoryController", ['$scope', '$http', function($scope, $http) {
@@ -158,7 +164,6 @@ avenue.controller("mediaController", ['$scope', '$http', function($scope, $http)
 }]);
 
 avenue.controller("advertizingController", ['$scope', '$http', function($scope, $http) {
-    debugger
     $http.get("data/advertizing.json", {cache: true}).success(function(data){
         debugger
         $scope.items = data.items;
@@ -168,10 +173,18 @@ avenue.controller("advertizingController", ['$scope', '$http', function($scope, 
 }]);
     
 avenue.controller("graphicDetailsController", ['$scope', '$http', function($scope, $http) {
-    debugger
-    $http.get("data/graphicDetails.json", {cache: true}).success(function(data){
-        debugger
+    $http.get("data/aurallife.json", {cache: true}).success(function(data){
         $scope.items = data.items;
+    }).error(function(data) {
+        $window.location.href = '#/Error';
+    })
+}]);
+     
+avenue.controller("detailLandscapeController", ['$scope', '$http', function($scope, $http) {
+    debugger
+    $http.get("data/freeform.json", {cache: true}).success(function(data){
+        $scope.items = data;
+        debugger
     }).error(function(data) {
         $window.location.href = '#/Error';
     })

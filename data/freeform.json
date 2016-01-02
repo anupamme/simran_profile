@@ -1,0 +1,139 @@
+{
+    "left": {
+        "images": [
+            {
+                "imageLink": "../images/aural_life/1.jpg",
+                "caption": ""
+            }
+        ],
+        "sound_clips": [
+            {
+                "soundlink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/32481053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+                "caption": ""
+            },
+            {
+                "soundlink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/32476905&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+                "caption": ""
+            }
+        ],
+        "slide_show_1": [
+            {
+                "imageLink": "../images/aural_life/4.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/5.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/6.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/7.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/8.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/9.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/10.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/11.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/12.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/13.JPG",
+                "caption": ""
+            }
+        ],
+        "slide_show_2": [
+            {
+                "imageLink": "../images/aural_life/A1.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A2.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A3.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A4.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A5.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A6.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A7.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A8.JPG",
+                "caption": ""
+            }
+        ],
+        "slide_show_3": [
+            {
+                "imageLink": "../images/aural_life/B1.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/B2.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/B3.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/B4.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/B5.JPG",
+                "caption": ""
+            }
+        ],
+        "scribd": [
+            {
+                "scribd_link": "",
+                "caption": ""
+            }
+        ]
+    },
+    "right": {
+        "images": [
+            {
+                "imageLink": "../images/aural_life/2.jpg",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/3.jpg",
+                "caption": ""
+            }
+        ],
+        "sound_clips": [],
+        "slide_show": [],
+        "scribd": []
+    }
+}

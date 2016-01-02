@@ -388,7 +388,7 @@
                 {
                     "poster":"../images/posterimage.PNG",
                     "videoLink":"https://player.vimeo.com/video/135540900",
-                    "caption":"Appetite"
+                    "caption":""
                 }
             ]
         },
@@ -655,6 +655,18 @@
             "workExhibited": [
             ],
             "images": [
+            ],
+            "images_2": [
+            ],
+            "images_3": [
+                {
+                    "imageLink": "../images/aural_life/1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/aural_life/2.jpg",
+                    "caption": ""
+                }
             ],
             "videos":[
             ]
