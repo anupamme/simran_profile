@@ -16,12 +16,12 @@
                     </ul>
                     <div class="detailed-header-detail" ng-show="item.workExhibited.length > 0">Work exhibited at: </div>
                     <ul>
-                        <li ng-repeat="workExhibited in item.workExhibited">{{workExhibited.title}}
+                        <li ng-repeat="workExhibited in item.workExhibited" style="padding-right: 90px; text-align:justify">{{workExhibited.title}}
                         </li>
                     </ul>
                     <div class="detailed-header-detail" ng-show="item.researchPapers.length > 0">Research Papers: </div>
                     <ul>
-                        <li ng-repeat="paper in item.researchPapers">{{paper.title}}
+                        <li ng-repeat="paper in item.researchPapers" style="padding-right: 90px; text-align:justify">{{paper.title}}
                         </li>
                     </ul>
                 </div>
@@ -38,14 +38,6 @@
                     </div>
 
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                        </ol>
-
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item " ng-repeat="img in item.images" ng-class='{active:$first}' >
@@ -54,29 +46,21 @@
                                        {{img.caption }}
                                 </div>
                             </div>
-                            
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" data-target="#carousel-example-generic" role="button" data-slide="prev">
+                            <a class="left carousel-control" data-target="#carousel-example-generic" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="right carousel-control" data-target="#carousel-example-generic" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
-                        </a>
+                        </a>    
+                        </div>
+
+                        <!-- Controls -->
+                        
                     </div>
                     <br /><br />
                      <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
-                            <li data-target="#carousel-example-generic-2" data-slide-to="3"></li>
-                        </ol>
-
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item " ng-repeat="img in item.images_2" ng-class='{active:$first}' >
@@ -85,10 +69,7 @@
                                        {{img.caption }}
                                 </div>
                             </div>
-                            
-                        </div>
-
-                        <!-- Controls -->
+                            <!-- Controls -->
                         <a class="left carousel-control" data-target="#carousel-example-generic-2" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
@@ -97,35 +78,18 @@
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
+                        </div>
                     </div>
-
-                    
                 </div>
+                <br />
+                <p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   
+                <a title="{{item.scribd.title}}" href="{{item.scribd.htmllink}}"  style="text-decoration: underline;" >{{item.scribd.title}}</a></p>
+                <iframe class="scribd_iframe_embed" ng-src="{{item.scribd.embedlink | youtubeEmbedUrl}}" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" id="doc_37660" width="100%" height="600" frameborder="0"></iframe>
             </div>
         </div>
     </div>
 
-    <div class="row">
-
-        <div class="col-md-12">
-            <div class="backtowork-content-holder">
-                <div class="pull-left"><a href="#/">Back to Work</a></div>
-                <div class="pull-right"><a href="">prev</a>&nbsp;/&nbsp;<a href="#">next</a></div>
-            </div>
-        </div>
-        <div ng-show="noDataFound">
-            <h2>No Data Found</h2>
-        </div>
-        <div class="col-md-4" ng-repeat="item in list">
-            <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}">
-                <div class="image-holder">
-                    <img src="{{item.coverImage}}" />
-                </div>
-                <div class="text-holder">{{item.title}}</div>
-            </a>
-        </div>
-
-    </div>
+    
 </div>
 
 <style>
@@ -133,30 +97,3 @@
         margin: 0 auto;
     }
 </style>
-
-<!--<iframe src="https://drive.google.com/file/d/0BxLckpctyfieLWc3MmZpUG8tYkU/preview" width="640" height="480"></iframe>-->
-
-<!--<p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   <a title="View Simran Chopra_diploma Document_low Res-2 on Scribd" href="https://www.scribd.com/doc/293717063/Simran-Chopra-diploma-Document-low-Res-2"  style="text-decoration: underline;" >Simran Chopra_diploma Document_low Res-2</a></p><iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/293717063/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" id="doc_37660" width="100%" height="600" frameborder="0"></iframe>-->
-<!--
-<link rel="stylesheet" href="css/ideal-image-slider.css">
-    <link rel="stylesheet" href="css/default.css">
--->
-<!--<script src="js/ideal-image-slider.min.js"></script>-->
-<!--
-<script>
-debugger
-    var slider = new IdealImageSlider.Slider({
-    selector: '#slider',
-    height: 400, // Required but can be set by CSS
-    interval: 4000
-});
-slider.start();
-
-</script>
--->
-
-<!--
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/32481053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" style="
-    width: 500px;
-    margin-left: 200px;
-"></iframe>-->

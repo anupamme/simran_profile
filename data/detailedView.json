@@ -749,8 +749,12 @@
                     "caption": ""
                 }
             ],
-            "videos":[
-            ]
+            "videos":[],
+            "scribd": {
+                "title": "View RFL Final Report Combined on Scribd",
+                "htmllink": "https://www.scribd.com/doc/293717281/RFL-Final-Report-Combined",
+                "embedlink": "https://www.scribd.com/embeds/293717281/content?start_page=1&view_mode=scroll&show_recommendations=true"
+            }
         },
         {
             "detailedLinkID": "15",
@@ -815,7 +819,12 @@
                 }
             ],
             "videos":[
-            ]
+            ],
+            "scribd": {
+                "title": "View Taj Ganj Taking Our Heritage Forward Rep on Scribd",
+                "htmllink": "https://www.scribd.com/doc/293716967/Taj-Ganj-Taking-Our-Heritage-Forward-Rep?secret_password=NFUalyA2aIEEAFqRDdrT",
+                "embedlink": "https://www.scribd.com/embeds/293716967/content?start_page=1&view_mode=scroll&show_recommendations=true"
+            }
         },
         {
             "detailedLinkID": "16",
@@ -1082,6 +1091,11 @@
             "images": [
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/34651345",
+                    "caption":""
+                }
             ]
         },
         {
@@ -1093,6 +1107,11 @@
             "images": [
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/34654348",
+                    "caption":""
+                }
             ]
         },
         {
@@ -1104,6 +1123,11 @@
             "images": [
             ],
             "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/33795041",
+                    "caption":""
+                }
             ]
         },
         {

@@ -10,13 +10,13 @@
             "type": "node",
             "next": "aurallife",
             "title": "Aural Life Worlds",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/aural_life/4.JPG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "14",
             "title": "Records for Life",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/recordsforlife/1.jpg"
         },
         {
             "type": "leaf",

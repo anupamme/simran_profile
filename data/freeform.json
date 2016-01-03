@@ -12,6 +12,41 @@
                 "caption": ""
             }
         ],
+        "slide_show_1": [
+            {
+                "imageLink": "../images/aural_life/A1.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A2.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A3.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A4.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A5.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A6.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A7.JPG",
+                "caption": ""
+            },
+            {
+                "imageLink": "../images/aural_life/A8.JPG",
+                "caption": ""
+            }
+        ],
+        
        "scribd": [
             {
                 "scribd_link": "",
@@ -78,40 +113,6 @@
                 "caption": ""
             }
         ],
-        "slide_show_2": [
-            {
-                "imageLink": "../images/aural_life/A1.JPG",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/A2.JPG",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/A3.JPG",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/A4.JPG",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/A5.JPG",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/A6.JPG",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/A7.JPG",
-                "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/A8.JPG",
-                "caption": ""
-            }
-        ],
         "slide_show_3": [
             {
                 "imageLink": "../images/aural_life/B1.JPG",
@@ -134,6 +135,10 @@
                 "caption": ""
             }
         ],
-        "scribd": []
+        "scribd": {
+            "title": "Understanding Aural Life Worlds",
+            "htmllink": "https://www.scribd.com/doc/76078080/Understanding-Aural-Life-Worlds",
+            "embedlink": "https://www.scribd.com/embeds/76078080/content?start_page=1&view_mode=scroll&show_recommendations=true"
+        }
     }
 }

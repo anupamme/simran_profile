@@ -2,20 +2,14 @@
     "items": [
         {
             "type": "leaf",
-            "detailedLinkID": "21",
-            "title": "Olfactory Interfaces",
+            "detailedLinkID": "26",
+            "title": "Bindu",
             "coverImage": "../images/dip/cover.jpg"
         },
         {
             "type": "leaf",
-            "detailedLinkID": "22",
-            "title": "CigCheck",
-            "coverImage": "../images/dip/cover.jpg"
-        },
-        {
-            "type": "leaf",
-            "detailedLinkID": "23",
-            "title": "Medicine Box",
+            "detailedLinkID": "27",
+            "title": "Photo Ballet",
             "coverImage": "../images/dip/cover.jpg"
         }
     ]

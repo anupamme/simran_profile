@@ -293,6 +293,7 @@ span.text-holder span {
 
 .detailed-content {
     margin-top: 50px;
+    font-family: verdana;
 }
 
 .detailed-header {
@@ -317,6 +318,7 @@ span.text-holder span {
     letter-spacing: .06em;
     font-weight: 300;
     font-style: normal;
+    padding-right: 90px;
 }
 
 /*.detailed-media-list {
