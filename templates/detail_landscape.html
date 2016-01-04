@@ -46,7 +46,6 @@
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                        
                     </div>
                     <br />
                     <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
@@ -58,6 +57,8 @@
                                        {{img.caption}}
                                 </div>
                             </div>
+                            
+                        </div>
                             <!-- Controls -->
                             <a class="left carousel-control" data-target="#carousel-example-generic-2" role="button" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -67,7 +68,6 @@
                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -103,6 +103,14 @@
                         </a>
                     </div>
                     <br />
+                    <div class="detailed-image-list">
+                        <div ng-repeat="image in items.right.images">
+                            <div class="detailed-image-holder">
+                                <img src="{{image.imageLink}}" />
+                            </div>
+                        </div>
+                    </div>
+                    <br />
                     <div id="carousel-example-generic-4" class="carousel slide" data-ride="carousel">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
@@ -112,25 +120,19 @@
                                        {{img.caption}}
                                 </div>
                             </div>
-                            <!-- Controls -->
-                            <a class="left carousel-control" data-target="#carousel-example-generic-4" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" data-target="#carousel-example-generic-4" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" data-target="#carousel-example-generic-4" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" data-target="#carousel-example-generic-4" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
-                <div class="detailed-image-list">
-                    <div ng-repeat="image in items.right.images">
-                        <div class="detailed-image-holder">
-                            <img src="{{image.imageLink}}" />
-                        </div>
-                    </div>
-                </div>
+                
                 
                 <br />
                 <p  style=" margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block;">   

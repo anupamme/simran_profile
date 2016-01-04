@@ -1,4 +1,6 @@
-{
+[
+    {
+    "detail_landscape_id": 1,
     "left": {
         "detaildHeader": "Understanding Aural Life Worlds",
         "description": "<p>Ethnography project to understand the Aural Life World of an Ethnic group to map lived experiences and aural landscapes.  To make sense of sounds which may not exist in the real world but have meanings for the group or the community by making a visual artefact.</p>",
@@ -141,4 +143,88 @@
             "embedlink": "https://www.scribd.com/embeds/76078080/content?start_page=1&view_mode=scroll&show_recommendations=true"
         }
     }
-}
+},
+    {
+        "detail_landscape_id": 2,
+        "left": {
+            "detaildHeader": "CigCheck",
+        "description": "<p>Cigarettes have an image, an aura and they are addictive. Smokers are already bombarded with a lot of hard hitting visual content (Ads, Packs, and Graphics) which has not proven very effective. People still smoke due to different individual reasons. A few touch points I wanted to address was the realization of the no. of cigarettes smoked, reminder at the time of smoking, reinstating the negative impacts of smoking even if it is in a subtle manner and resulting in a change of behaviour. With a lot of existing products, CigCheck finds its own niche with regards to personalized interaction that it provides to making the smoker more conscious of his / her smoking habits</p><p>It is a personalized smart cigarette case designed to be unobtrusive and to pass on the message in an understated manner unlike messages or graphics on traditional packs. It has been designed for people who are looking for ways to quit or to monitor their consumption. The smart pack has the capabilities of sending the consumption data over the net, computing the data, generating a graphic on the pack in real time with every smoked cigarette and sending back a visual graphical feedback at the end of the day. Only the user will be able to interpret the graphic as the consumption pattern generated will be different every time. It displays randomly generated circles mapped to the no. of cigarettes consumed and the distance between the circles to the time gap between the smoked cigarettes.</p>",
+            "slide_show_1": [
+                {
+                    "imageLink": "../images/cigcheck/1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/4.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/5.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/6.jpg",
+                    "caption": ""
+                }
+            ],
+            "slide_show_2": [
+                {
+                    "imageLink": "../images/cigcheck/P1.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P4.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P5.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P6.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P7.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P8.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/P9.jpg",
+                    "caption": ""
+                }
+            ]
+        },
+        "right": {
+            "images": [
+                {
+                    "imageLink": "../images/cigcheck/cig_tall_2.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/cigcheck/cig_tall_3.jpg",
+                    "caption": ""
+                }
+            ]
+        }
+    }
+]

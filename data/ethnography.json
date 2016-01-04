@@ -9,6 +9,7 @@
         {
             "type": "node",
             "next": "aurallife",
+            "detailedLinkID": "1",
             "title": "Aural Life Worlds",
             "coverImage": "../images/aural_life/4.JPG"
         },

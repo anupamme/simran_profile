@@ -7,8 +7,9 @@
             "coverImage": "../images/dip/cover.jpg"
         },
         {
-            "type": "leaf",
-            "detailedLinkID": "22",
+            "type": "node",
+            "next": "aurallife",
+            "detailedLinkID": "2",
             "title": "CigCheck",
             "coverImage": "../images/dip/cover.jpg"
         },

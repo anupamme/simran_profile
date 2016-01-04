@@ -15,10 +15,6 @@ avenue.config(function ($routeProvider) {
         when('/resume', {
             templateUrl: 'templates/resume.html'
         }).
-        when('/detailedView/:id', {
-            templateUrl: 'templates/detailView.html',
-            controller: 'detailedViewController'
-        }).
         when('/food', {
             templateUrl: 'templates/food.html',
             controller: 'foodController'
@@ -59,9 +55,13 @@ avenue.config(function ($routeProvider) {
             templateUrl: 'templates/graphicDetails.html',
             controller: 'graphicDetailsController'
         }).
-        when('/aurallifedetailedView', {
+        when('/aurallifedetailedView/:id', {
             templateUrl: 'templates/detail_landscape.html',
             controller: 'detailLandscapeController'
+        }).
+        when('/detailedView/:id', {
+            templateUrl: 'templates/detailView.html',
+            controller: 'detailedViewController'
         }).
         when('/Error', {
         templateUrl: 'templates/error.html'
@@ -222,15 +222,46 @@ avenue.controller("graphicDetailsController", ['$scope', '$http', function($scop
     };
 }]);
      
-avenue.controller("detailLandscapeController", ['$scope', '$http', function($scope, $http) {
+avenue.controller("detailLandscapeController", ['$scope', '$http', '$window', '$routeParams', function($scope, $http, $window, $routeParams) {
+    $scope.items = [];
     debugger
+    $scope.detail_page_id = $routeParams.id
     $http.get("data/freeform.json", {cache: true}).success(function(data){
-        $scope.items = data;
-        debugger
+        for (var i = 0; i < data.length; i++) {
+                debugger
+                if (data[i].detail_landscape_id == $routeParams.id) {
+                    debugger
+                    $scope.items = data[i];
+                    // setCookie("html_player", 1, 365);
+                    break;
+                }
+            }
     }).error(function(data) {
         $window.location.href = '#/Error';
     })
 }]);
+     
+
+     
+avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$routeParams', function ($scope, $http, $window, $routeParams) {
+ 
+    $scope.item = [];
+    $scope.detail_page_id = $routeParams.id
+    $http.get("data/detailedView.json", {cache: true}).success(function (data) {
+        for (var i = 0; i < data.items.length; i++) {
+                debugger
+                if (data.items[i].detailedLinkID == $routeParams.id) {
+                    debugger
+                    $scope.item = data.items[i];
+                    // setCookie("html_player", 1, 365);
+                    break;
+                }
+            }
+        }).error(function (data) {
+            $window.location.href = '#/Error';
+        });
+    
+}])
      
 avenue.controller("ethnographyController", ['$scope', '$http', function($scope, $http) {
     $http.get("data/ethnography.json", {cache: true}).success(function(data){
@@ -257,91 +288,6 @@ avenue.controller("slideshowController", ['$scope', '$http', function ($scope, $
             $window.location.href = '#/Error';
         })
 }]);
-     
-avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$routeParams', function ($scope, $http, $window, $routeParams) {
- 
-    $scope.item = [];
-    debugger
-//    $scope.slider = new IdealImageSlider.Slider('#slider');
-//    $scope.url = 'data/detailedView.json';
-//    $scope.getIframeSrc = function (videoURL) {
-//        return 'videoURL';
-//    };
-    
-//        $scope.direction = 'left';
-//        $scope.currentIndex = 0;
-//
-//        $scope.setCurrentSlideIndex = function (index) {
-//            $scope.direction = (index > $scope.currentIndex) ? 'left' : 'right';
-//            $scope.currentIndex = index;
-//        };
-//
-//        $scope.isCurrentSlideIndex = function (index) {
-//            return $scope.currentIndex === index;
-//        };
-//
-//        $scope.prevSlide = function () {
-//            $scope.direction = 'left';
-//            $scope.currentIndex = ($scope.currentIndex < $scope.slides.length - 1) ? ++$scope.currentIndex : 0;
-//        };
-//
-//        $scope.nextSlide = function () {
-//            $scope.direction = 'right';
-//            $scope.currentIndex = ($scope.currentIndex > 0) ? --$scope.currentIndex : $scope.slides.length - 1;
-//        };
-    debugger
-    $scope.detail_page_id = $routeParams.id
-    $http.get("data/detailedView.json", {cache: true}).success(function (data) {
-        debugger
-        for (var i = 0; i < data.items.length; i++) {
-                debugger
-                if (data.items[i].detailedLinkID == $routeParams.id) {
-                    debugger
-                    $scope.item = data.items[i];
-                    // setCookie("html_player", 1, 365);
-                    break;
-                }
-            }
-        }).error(function (data) {
-            $window.location.href = '#/Error';
-        });
-    
-}])
-//.animation('.slide-animation', function () {
-//        return {
-//            beforeAddClass: function (element, className, done) {
-//                var scope = element.scope();
-//
-//                if (className == 'ng-hide') {
-//                    var finishPoint = element.parent().width();
-//                    if(scope.direction !== 'right') {
-//                        finishPoint = -finishPoint;
-//                    }
-//                    TweenMax.to(element, 0.5, {left: finishPoint, onComplete: done });
-//                }
-//                else {
-//                    done();
-//                }
-//            },
-//            removeClass: function (element, className, done) {
-//                var scope = element.scope();
-//
-//                if (className == 'ng-hide') {
-//                    element.removeClass('ng-hide');
-//
-//                    var startPoint = element.parent().width();
-//                    if(scope.direction === 'right') {
-//                        startPoint = -startPoint;
-//                    }
-//
-//                    TweenMax.fromTo(element, 0.5, { left: startPoint }, {left: 0, onComplete: done });
-//                }
-//                else {
-//                    done();
-//                }
-//            }
-//        };
-//    });
 
 avenue.filter("nl2br", ['$sce', function ($sce) {
     return function (text) {

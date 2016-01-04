@@ -306,7 +306,6 @@ span.text-holder span {
     font-weight: 300;
     font-style: normal;
     padding-right: 90px;
-    text-align: justify;
 }
 
 .detailed-header-details {
@@ -334,7 +333,17 @@ span.text-holder span {
     font-weight: 300;
     font-style: normal;
     padding-right: 90px;
-    text-align: justify;
+}
+
+.detailed-description-about {
+    font-size: 0.9em;
+    font-family: verdana;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 90px;
 }
 
 .detailed-image {
