@@ -10,13 +10,13 @@
             "type": "leaf",
             "detailedLinkID": "19",
             "title": "Distant Ties",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/distant-ties/cover.jpg"
         },
         {
             "type": "node",
             "next": "olfactory",
             "title": "Olfactory Interfaces",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/olfactory/cover.jpg"
         },
         {
             "type": "leaf",

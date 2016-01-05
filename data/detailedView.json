@@ -480,7 +480,12 @@
                     "videoLink":"https://player.vimeo.com/video/135270299",
                     "caption":""
                 }
-            ]
+            ],
+            "scribd": {
+                "title": "Simran Chopra_diploma Document_low Res-2",
+                "htmllink": "https://www.scribd.com/doc/293717063/Simran-Chopra-diploma-Document-low-Res-2",
+                "embedlink": "https://www.scribd.com/embeds/293717063/content?start_page=1&view_mode=scroll&show_recommendations=true"
+            }
         },
         {
             "detailedLinkID": "7",
