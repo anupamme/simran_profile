@@ -4,25 +4,19 @@
             "type": "node",
             "next": "animation",
             "title": "Experimental Animation",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/covers/animation.jpg"
         },
         {
             "type": "node",
             "next": "media",
             "title": "New Media Theory",
-            "coverImage": "../images/dip/cover.jpg"
-        },
-        {
-            "type": "node",
-            "next": "advertizing",
-            "title": "Advertising",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/covers/newmedia.jpg"
         },
         {
             "type": "node",
             "next": "graphic",
             "title": "Graphic Design",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/covers/graphic.jpg"
         }
     ]
 }

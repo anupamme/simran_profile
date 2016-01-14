@@ -14,27 +14,41 @@
         },
         {
             "type": "node",
-            "next": "olfactory",
-            "title": "Olfactory Interfaces",
-            "coverImage": "../images/olfactory/cover.jpg"
+            "next": "aurallife",
+            "detailedLinkID": "2",
+            "title": "CigCheck",
+            "coverImage": "../images/cigcheck/1.jpg"
         },
         {
-            "type": "leaf",
-            "detailedLinkID": "20",
+            "type": "node",
+            "next": "aurallife",
+            "detailedLinkID": "3",
             "title": "Electrograph",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/covers/electrograph.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "24",
-            "title": "Re-imagining Illustrator",
-            "coverImage": "../images/dip/cover.jpg"
+            "title": "Re-imagining Painting Experience",
+            "coverImage": "../images/covers/adobe.jpg"
         },
         {
             "type": "leaf",
             "detailedLinkID": "25",
             "title": "Flush",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/covers/flush.jpg"
+        },
+        {
+            "type": "leaf",
+            "detailedLinkID": "29",
+            "title": "Worm Holes",
+            "coverImage": "../images/covers/wormhole.jpg"
+        },
+        {
+            "type": "leaf",
+            "detailedLinkID": "21",
+            "title": "Olfactory Interfaces",
+            "coverImage": "../images/olfactory/80.jpg"
         }
     ]
 }

@@ -5,19 +5,6 @@
             "detailedLinkID": "21",
             "title": "Olfactory Interfaces",
             "coverImage": "../images/dip/cover.jpg"
-        },
-        {
-            "type": "node",
-            "next": "aurallife",
-            "detailedLinkID": "2",
-            "title": "CigCheck",
-            "coverImage": "../images/cigcheck/1.jpg"
-        },
-        {
-            "type": "leaf",
-            "detailedLinkID": "23",
-            "title": "Medicine Box",
-            "coverImage": "../images/dip/cover.jpg"
         }
     ]
 }

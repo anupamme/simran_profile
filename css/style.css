@@ -267,7 +267,7 @@ span.text-holder span {
     margin: 0 auto;
     cursor: pointer;
     width: 100%;
-    padding-top: 15px;
+/*    padding-top: 15px;*/
     text-align: center;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
@@ -309,12 +309,11 @@ span.text-holder span {
 }
 
 .detailed-header-details {
-    color: #222;
-    font-size: 1.3em;
-    line-height: 1.2em;
-    text-transform: uppercase;
+    font-size: 0.5em;
+    font-family: verdana;
+    line-height: 1.8em;
+    text-transform: none;
     text-decoration: none;
-    letter-spacing: .06em;
     font-weight: 300;
     font-style: normal;
     padding-right: 90px;

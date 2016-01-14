@@ -56,11 +56,11 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/aam_khas/6.jpg",
+                    "imageLink": "../images/aam_khas/6.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/aam_khas/7.jpg",
+                    "imageLink": "../images/aam_khas/7.JPG",
                     "caption": ""
                 },
                 {
@@ -68,11 +68,11 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/aam_khas/9.jpg",
+                    "imageLink": "../images/aam_khas/9.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/aam_khas/10.jpg",
+                    "imageLink": "../images/aam_khas/10.JPG",
                     "caption": ""
                 }
             ],
@@ -106,7 +106,7 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/aam_khas/akb-ex/8.JPG",
+                    "imageLink": "../images/aam_khas/akb-ex/8.jpg",
                     "caption": ""
                 },
                 {
@@ -143,7 +143,10 @@
                 }
             ],
             "videos":[
-            ]
+            ],
+            "drive": {
+                "embedlink": "https://drive.google.com/file/d/0BxLckpctyfieLWc3MmZpUG8tYkU/preview"
+            }
         },
         {
             "detailedLinkID": "2",
@@ -412,7 +415,7 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/soufc/4.JPG",
+                    "imageLink": "../images/soufc/4.jpg",
                     "caption": ""
                 },
                 {
@@ -428,7 +431,7 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/soufc/8.JPG",
+                    "imageLink": "../images/soufc/8.jpg",
                     "caption": ""
                 },
                 {
@@ -556,7 +559,7 @@
             "description": "<p>Objects like tables are different from any other multimodal artefacts given the importance of their practical function. Tables are multimodal and semiotic artefacts.</p><p>A round table (referred, IKEA study of tables) surface is constructed in two layers, the top is a non conductive layer and the bottom is a conductive layer formed by a metal sheet. They together would act as a capacitance sensing device. With the help of customized electronics and code, the table detects the number of fingers placed and the pressure applied on the surface of the table. Each touch interaction is relayed as readings from the micro-controller. Visuals were put into place to interpret the readings in a simpler fashion. The table top is used for projection of content.</p><p>The activities that we perform daily around the dining table like sitting, picking up a spoon, eating, sharing etc. were intended as interactions which can have a mediated output. The content for the output can be mapped and projected on to the surface of the table while food is consumed.</p><p>The table is an important cultural artefact in the act “to eat”. In the idealistic situation the table can act as a self sustaining aquaponic structure. It will support plant and aquatic life which can become part of the food chain of the person. Herbs, vegetables can be grown alongside with fishes. They help in providing each other with the needed nutrients and oxygen to survive. The surface of the table will offer immediate value and the plants/ fishes will suggest contemplation value. The table’s intent is to motivate people to live a sustainable locavore lifestyle.</p>",
             "workExhibited": [
             ],
-            "images": [
+            "images_only": [
                 {
                     "imageLink": "../images/investigations_food/dinnertable1.jpg",
                     "caption": ""
@@ -579,7 +582,7 @@
             "description": "<p>‘Physis’ is a Greek word which translates to english as ‘Nature.’ It is the principle of growth or change in nature.</p><p>Rapid fusions of computing and dwelling spaces, as well as the increasingly tactile and gestural nature of interactions with digital devices act as motivation for the following explorations. If a broad variety of objects in living, social and working spaces are made aware and responsive to human presence, touch and gesture; what will be the outcome?</p><p>In the series of experimentation with living plants, ubiquitous technology is used. Plants were transformed as highly expressive and interactive user interfaces (referred, Botanicus Interactus). The prototypes use customized electronics and computing with living flora. The outcome is an interaction platform that takes interactions from the physical to a digital environment.</p><p>The technology used has a number of unique properties. This instrumentation of plants is simple, non-invasive, and does not damage the plants. It requires only a single wire placed anywhere in the soil. The interaction with plant goes beyond simple touch and allows rich gestural interaction. Examples include sliding fingers on the stem or leaf, detecting touch and grasp location, tracking proximity, and estimating the amount of pressure on touch.</p><p>A broad range of applications are possible with the developed technology, designing interactive responsive environments and new forms of living interaction devices as well as developing organic ambient and pervasive interfaces.</p>",
             "workExhibited": [
             ],
-            "images": [
+            "images_only": [
                 {
                     "imageLink": "../images/investigations_food/aural0.jpg",
                     "caption": ""
@@ -610,7 +613,11 @@
             "description": "<p>It is for children from the age group of 3 to 5 years. At this age the kids start to learn about colors, numbers, different fruits and vegetables. It is based on the practice of play, which is important for learning at this young age. It is also influenced by the Psychology of Flow which is an important phase of learning and doing.</p><p>The prototype is made in the form of a planter, with different fruits and vegetables. The fruits and vegetables are in the form of stuffed plant signs. Plant signs are put in planters to indicate the seed that has been sowed in the pot. These interactive plant signs come to life when planted in the planter. Individual fruit or vegetable is imparted with a specific character. These are then transformed into a narrative structure with dialogues.</p><p>The interaction indicates the act of planting and gratification. When a tomato is planted the tomato will talk back to the child with information. The related content will be kind of plants, the colour of fruit, classification and some fun facts. When a second plant is planted into the planter a short dialogue happens between the two plants. The conversation will be from daily life; for example how the two are related or used in everyday food.</p><p>The intent of the concept is to introduce children to the idea of planting. Giving them knowledge about our day-to-day food arriving from plants, how they are grown and where they come from. The children can be taught the idea of “growing your own food”. So that when they grow up they can live a more sustainable lifestyle.</p>",
             "workExhibited": [
             ],
-            "images": [
+            "images_only": [
+                {
+                    "imageLink": "../images/investigations_food/chattyplanter_0.jpg",
+                    "caption": ""
+                },
                 {
                     "imageLink": "../images/investigations_food/chattyplanter_1.jpg",
                     "caption": ""
@@ -629,7 +636,7 @@
             "description": "<p>It is an exploration with food and sound. Distinct tunes are played according to the kind of eatables in your plate. The production of music takes place through a smart handheld device. The handheld gadget is made out of customized electronics and acts as a food scanner. It has the ability to scan your food and generate musical notes accordingly.</p><p>The food on your plate acts as an input to produce music. Generated music from food is based on the thought; if food had the ability to talk to you, what would it say? Would it sing? Maybe it would sing or speak in a gentle murmuring tone; crooning its way to your stomach and heart.</p><p>Eating is multisensory in nature and the device enhances the sensorial hearing aspect of your food, through producing sounds. It enhances the experience around food and of eating. Every sound clip produced will be specific to the nature of the food on your plate. Particular food items will have specific sounds; it will depend on the colour, the quality and the quantity. With further work it can have the ability to distinguish and detect fast food so that it can produce corresponding shocking sounds.</p><p>The device will also have the ability to send the produced sound clips to other people, using similar devices or over social media websites. So that other people can hear the kind of food you are eating. It can also have an effect on people’s consumption patterns, as they would relate certain sounds to be good and certain sound to be dire, consequential to the foods that produce it. It will give rise to a subconscious equation of good and bad foods. </p>",
             "workExhibited": [
             ],
-            "images": [
+            "images_only": [
                 {
                     "imageLink": "../images/investigations_food/croon_food.jpg",
                     "caption": ""
@@ -644,7 +651,7 @@
             "description": "<p>The idea of reflection, enhances the capability of play. People like to play with their shadows and reflections, they want to see themselves perform. In reflection is a concept to signify ‘You are what you eat’, as mentioned in the Indian texts ‘Upanishads’.</p><p>It can be interpreted that food constitutes us, builds us and makes us, so we are formed by the kind of food we eat. By telling what you eat we can estimate who you are.</p><p>The reflection of the person is enclosed within a frame, but the reflection is not straightforward. Rather than a simple reflected surface the reflection is influenced by the kind of food that constitutes you (referred, artist Giuseppe Arcimboldo).</p><p>The conceptual prototype uses the abilities of a webcam to detect presence. It captures the silhouette and colours of the person’s image and translates it into a reflection into the picture frame. It is a generated image, composed of different foods, fruits and vegetables. Computational abilities will derive selection of the food items through different colours. For example colour red can be formed by tomatoes or cherries depending on the intensity and tone of red in the image. So the reflected silhouette of the person is composed of tomatoes, wheat etc.</p><p>The thought can also comment on the consumption patterns of people as the image formed can be through choice of food. It can denote the kind of consumer culture we live in through the medium of a self portrait. </p>",
             "workExhibited": [
             ],
-            "images": [
+            "images_only": [
                 {
                     "imageLink": "../images/investigations_food/in_reflection.jpg",
                     "caption": ""
@@ -688,7 +695,7 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/recordsforlife/2.jpg",
+                    "imageLink": "../images/recordsforlife/2.JPG",
                     "caption": ""
                 },
                 {
@@ -740,18 +747,6 @@
                 {
                     "imageLink": "../images/recordsforlife/2ndpart/4.jpg",
                     "caption": ""
-                },
-                {
-                    "imageLink": "../images/recordsforlife/2ndpart/5.jpg",
-                    "caption": ""
-                },
-                {
-                    "imageLink": "../images/recordsforlife/2ndpart/6.jpg",
-                    "caption": ""
-                },
-                {
-                    "imageLink": "../images/recordsforlife/2ndpart/7.jpg",
-                    "caption": ""
                 }
             ],
             "videos":[],
@@ -769,7 +764,7 @@
             ],
             "images": [
                 {
-                    "imageLink": "../images/taj/0.JPG",
+                    "imageLink": "../images/taj/0.jpg",
                     "caption": ""
                 },
                 {
@@ -785,7 +780,7 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/taj/4.JPG",
+                    "imageLink": "../images/taj/4.jpg",
                     "caption": ""
                 },
                 {
@@ -797,7 +792,7 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/taj/7.JPG",
+                    "imageLink": "../images/taj/7.jpg",
                     "caption": ""
                 }
             ],
@@ -811,11 +806,11 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/taj/tag_east_1.jpg",
+                    "imageLink": "../images/taj/taj_east_1.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/taj/tag_east_2.jpg",
+                    "imageLink": "../images/taj/taj_east_2.jpg",
                     "caption": ""
                 },
                 {
@@ -845,7 +840,7 @@
         {
             "detailedLinkID": "17",
             "detaildHeader": "Roofitarian",
-            "description": "<p>It is an ongoing research and development endeavour. My journey with food continues and my appetite keeps increasing. It is a continuation of my master’s thesis project where I explored food politics through self initiated research and artworks, making people aware of the convoluted food system that we live in. Travelling further on the road I started growing some of my own food, through organic urban farming. I ventured out into my own edible terrace garden which inspired me to again merge technology and the urban farming. This endeavour lead me to develop a prototype of a smart planter which can monitor growth of plants through a series of sensors and applications. I disembarked from the project as I learned the intricacies of organic farming and found the project to be trivial in nature when compared to the monetary or intrinsic value. After having seen the work of Open Agricultures Lab, I am now trying to build a frugal aeroponic structure with the help of a makerspace in Bangalore. </p><p>In my upcoming work I would want to look at disrupting urban living spaces and systems to reconfigure the urban life towards more ecological point of view which can define the future of not only food and living spaces but also break the paradox of choice. Making technology and food accessible to everyone. </p><p>Bangalore is the fourth most populous city in India. It has a high migration rate of its working population, mostly because of software industry. With people having high disposable income they are focused towards improving the quality of daily life. There is a huge amount of interest and inclination towards eating fresh, organic food. </p><p>But the present cost, convenience and availability are major factor influencing food trends, the current demand and supply chain is unbalanced. </p><p>Existing independent systems in this segment cater to their respective needs, we here propose to interconnect them through technology, to bring about an impactful change.</p>",
+            "description": "<p>It is an ongoing research and development endeavour. My journey with food continues and my appetite keeps increasing. It is in continuation of my masters thesis project where I explored food politics through self initiated research. The research manifested into numerous personal and professional outcomes such as publications in international conferences, a self sustaining planter, series of food activism artworks & installations presented internationally and community uncookbook on facebook.<p></p>Travelling further on the road I started growing some of my own food, through organic urban farming. I ventured out into my own edible terrace garden which inspired me to again merge technology and the urban farming. This endeavour lead me to develop a prototype of a smart planter which can monitor growth of plants through a series of sensors and applications. I disembarked from the project as I learned the intricacies of organic farming and found the project to be trivial in nature when compared to the monetary or intrinsic value. After having seen the work of Open Agricultures Lab recently, I am now trying to build a frugal aeroponic structure with the help of a makerspace in Bangalore.<p></p>In my upcoming work I would want to look at disrupting urban living spaces and systems to reconfigure the urban life towards more ecological point of view which can define the future of not only food and living spaces but also break the paradox of choice. Making technology and food accessible to everyone.</p><p>Documentation of concept for Ozchi24hr Challenge<br /><a href=\"https://www.youtube.com/watch?v=Xd0S6CQLQUM&feature=youtu.be\">Concept Video</a>: <br />Blog: http://newmediamoonies.tumblr.com</p>",
             "workExhibited": [
             ],
             "images": [
@@ -898,6 +893,16 @@
                     "caption": ""
                 }
             ],
+            "images_2": [
+                {
+                    "imageLink": "../images/roofit/a.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/roofit/b.jpg",
+                    "caption": ""
+                }
+            ],
             "videos":[
             ]
         },
@@ -935,6 +940,60 @@
             "workExhibited": [
             ],
             "images": [
+              {
+                    "imageLink": "../images/distant-ties/a1.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/a2.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/a3.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/a4.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/a5.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/a6.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/a7.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/a8.jpg",
+                    "caption": ""
+              }
+            ],
+            "images_2": [
+              {
+                    "imageLink": "../images/distant-ties/1.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/2.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/3.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/4.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/distant-ties/5.jpg",
+                    "caption": ""
+              }
             ],
             "videos":[
                 {
@@ -966,7 +1025,23 @@
             "description": "<p>It was an Interaction Design classroom project. The beginning was food which lead to exploration of olfactory interfaces, with development of a few interfaces. Few of the interfaces were smell books that could give off smells related to characters or chapters to enhance reading experience, a swearing meter that gives out bad smell when you swear, disc burner that gives a burning smell when your disc is ready,  regulating air quality in smoking zones.  The project progressed to research upon Anosmia. I found that tar can have similar effect on smokers and decided to investigate this phenomenon further. And <a href=\"#/detailedView/22\">Cigcheck</a> was the outcome of this investigation.</p>",
             "workExhibited": [
             ],
-            "images": [
+            "images_only": [
+              {
+                    "imageLink": "../images/olfactory/81.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/olfactory/82.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/olfactory/80.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/olfactory/84.jpg",
+                    "caption": ""
+              }
             ],
             "videos":[
             ]
@@ -1142,6 +1217,41 @@
             "workExhibited": [
             ],
             "images": [
+            ],
+            "videos":[
+            ]
+        },
+        {
+            "detailedLinkID": "28",
+            "detaildHeader": "Free Falling",
+            "description": "<p>An attempt to remediate two very old oral media forms – poetry and public speaking, into a film. Documentation of the project for further details.<p></p>Today’s world of consumerism and material pursuit is what’s ‘real’ for us. Unknowingly enslaved in the age of the image and its shadow, we find it difficult to extricate ourselves from this ever growing web of visual and electronic media. So we wonder -what is really the freedom that we have fought to seek? ‘Free Falling’ prompts the user to engage in a debate with herself and confront the paradox of freedom that exists.<p></p>It features Indian poet Rabindranath Tagore’s poem ‘Where the mind is without fear’ (1901), Martin Luther King Jr.’s speech ‘I have a dream’ (1963) and Jawaharlal Nehru’s speech ‘Tryst with destiny’ (1947). All of them talk about freedom in some sense. While Nehru speaks about the freedom of the nation state and King about freedom from inequality and racial bias, Tagore speaks about freedom of the inner self. ‘Free Falling’ essentially remediates the context in which these were written/ spoken. Also the final medium being a film, liberties offered by the medium have been taken to modify the linear structure of the poems and speech to suit our context.</p>",
+            "workExhibited": [
+            ],
+            "images": [
+            ],
+            "videos":[
+                {
+                    "poster":"../images/posterimage.PNG",
+                    "videoLink":"https://player.vimeo.com/video/33795041",
+                    "caption":""
+                }
+            ]
+        },
+        {
+            "detailedLinkID": "29",
+            "detaildHeader": "Worm Hole",
+            "description": "<p>An attempt to remediate two very old oral media forms – poetry and public speaking, into a film. Documentation of the project for further details.<p></p>Today’s world of consumerism and material pursuit is what’s ‘real’ for us. Unknowingly enslaved in the age of the image and its shadow, we find it difficult to extricate ourselves from this ever growing web of visual and electronic media. So we wonder -what is really the freedom that we have fought to seek? ‘Free Falling’ prompts the user to engage in a debate with herself and confront the paradox of freedom that exists.<p></p>It features Indian poet Rabindranath Tagore’s poem ‘Where the mind is without fear’ (1901), Martin Luther King Jr.’s speech ‘I have a dream’ (1963) and Jawaharlal Nehru’s speech ‘Tryst with destiny’ (1947). All of them talk about freedom in some sense. While Nehru speaks about the freedom of the nation state and King about freedom from inequality and racial bias, Tagore speaks about freedom of the inner self. ‘Free Falling’ essentially remediates the context in which these were written/ spoken. Also the final medium being a film, liberties offered by the medium have been taken to modify the linear structure of the poems and speech to suit our context.</p>",
+            "workExhibited": [
+            ],
+            "images": [
+              {
+                    "imageLink": "../images/wormhole/1.jpg",
+                    "caption": ""
+              },
+              {
+                    "imageLink": "../images/wormhole/2.jpg",
+                    "caption": ""
+              }
             ],
             "videos":[
             ]

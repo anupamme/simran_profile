@@ -4,7 +4,7 @@
             "type": "leaf",
             "detailedLinkID": "1",
             "title": "Aam Khas Bagh",
-            "coverImage": "../images/aam_khas/8.JPG"
+            "coverImage": "../images/aam_khas/8.jpg"
         },
         {
             "type": "node",
@@ -29,7 +29,7 @@
             "type": "leaf",
             "detailedLinkID": "16",
             "title": "Samsung R&D",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/covers/sam1.jpeg"
         }
     ]
 }

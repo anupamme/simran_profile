@@ -22,13 +22,13 @@
             "type": "leaf",
             "detailedLinkID": "18",
             "title": "Community Uncookbook",
-            "coverImage": "../images/uncookbook/1.jpg"
+            "coverImage": "../images/uncookbook/5.jpg"
         },
         {
             "type": "node",
             "next": "investigations",
             "title": "Investigations",
-            "coverImage": "../images/investigations_food/dinnertable1.jpg"
+            "coverImage": "../images/covers/investigations.jpg"
         }
     ]
 }

@@ -8,10 +8,6 @@
             {
                 "imageLink": "../images/aural_life/1.jpg",
                 "caption": ""
-            },
-            {
-                "imageLink": "../images/aural_life/2.jpg",
-                "caption": ""
             }
         ],
         "slide_show_1": [
@@ -148,14 +144,14 @@
         "detail_landscape_id": 2,
         "left": {
             "detaildHeader": "CigCheck",
-        "description": "<p>Cigarettes have an image, an aura and they are addictive. Smokers are already bombarded with a lot of hard hitting visual content (Ads, Packs, and Graphics) which has not proven very effective. People still smoke due to different individual reasons. A few touch points I wanted to address was the realization of the no. of cigarettes smoked, reminder at the time of smoking, reinstating the negative impacts of smoking even if it is in a subtle manner and resulting in a change of behaviour. With a lot of existing products, CigCheck finds its own niche with regards to personalized interaction that it provides to making the smoker more conscious of his / her smoking habits</p><p>It is a personalized smart cigarette case designed to be unobtrusive and to pass on the message in an understated manner unlike messages or graphics on traditional packs. It has been designed for people who are looking for ways to quit or to monitor their consumption. The smart pack has the capabilities of sending the consumption data over the net, computing the data, generating a graphic on the pack in real time with every smoked cigarette and sending back a visual graphical feedback at the end of the day. Only the user will be able to interpret the graphic as the consumption pattern generated will be different every time. It displays randomly generated circles mapped to the no. of cigarettes consumed and the distance between the circles to the time gap between the smoked cigarettes.</p>",
+        "description": "<p>Cigarettes have an image, an aura and they are addictive. Smokers are already bombarded with a lot of hard hitting visual content (Ads, Packs, and Graphics) which has not proven very effective. People still smoke due to different individual reasons. A few touch points I wanted to address was the realization of the no. of cigarettes smoked, reminder at the time of smoking, reinstating the negative impacts of smoking even if it is in a subtle manner and resulting in a change of behaviour. With a lot of existing products, CigCheck finds its own niche with regards to personalized interaction that it provides to making the smoker more conscious of his / her smoking habits</p><p>It is a personalized smart cigarette case designed to be unobtrusive and to pass on the message in an understated manner unlike messages or graphics on traditional packs. It has been designed for people who are looking for ways to quit or to monitor their consumption. The smart pack has the capabilities of sending the consumption data over the net, computing the data, generating a graphic on the pack in real time with every smoked cigarette and sending back a visual graphical feedback at the end of the day. Only the user will be able to interpret the graphic as the consumption pattern generated will be different every time. It displays randomly generated circles mapped to the no. of cigarettes consumed and the distance between the circles to the time gap between the smoked cigarettes.</p><p><a href=\"https://www.scribd.com/doc/116463674/Stanford-India-Biodesign-Fellowship-Presentation\">The same system was used to propose a Medicine Box at Stanford Bio Design Fellowship.</a></p>",
             "slide_show_1": [
                 {
                     "imageLink": "../images/cigcheck/1.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/cigcheck/2.jpg",
+                    "imageLink": "../images/cigcheck/2.JPG",
                     "caption": ""
                 },
                 {
@@ -167,11 +163,11 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/cigcheck/5.jpg",
+                    "imageLink": "../images/cigcheck/5.JPG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/cigcheck/6.jpg",
+                    "imageLink": "../images/cigcheck/6.JPG",
                     "caption": ""
                 }
             ],
@@ -217,11 +213,33 @@
         "right": {
             "images": [
                 {
-                    "imageLink": "../images/cigcheck/cig_tall_2.jpg",
+                    "imageLink": "../images/cigcheck/cig1.jpg",
                     "caption": ""
                 },
                 {
                     "imageLink": "../images/cigcheck/cig_tall_3.jpg",
+                    "caption": ""
+                }
+            ]
+        }
+    },
+    {
+        "detail_landscape_id": 3,
+        "left": {
+            "detaildHeader": "Electrograph",
+        "description": "<p>Displays the consumption of electricity in real time and make the larger implications of wastage communicated in an easy, tangible & visual manner. Electricity is one of the most important entities in our daily lives; as well as in the overall functioning of a country. In the recent past, India’s power consumption has been rapidly increasing, due to steady economic growth and a burgeoning population. If we were made aware of the consequences of using and wasting electricity on our natural environment.. The project is placed within the domain of visualisation, environmental issues, sustainability and surveillance of human activity. Combined with it is a tangible interface through which a display of human interactions and responses is possible. It intends to display the consumption of electricity in real time and make the larger implications of wastage communicated in an easy, tangible and visual manner.</p><p>We constructed a structure that reminds one of an old spice cabinet to house the various components. Solenoid valves were used to control the amount of sand falling into the measuring jars. Each solenoid could be connected to the lights, fans or plug point switches. It has more of an impact than just looking at a bundle of numbers on a digital meter because one can see the tangible change in the level of sand, and how much a certain amount of electricity costs in terms of the environment.<br /><br /><i>Collaborator</i>: Manasi Agarwal</p>"
+        },
+        "right": {
+            "videos": [
+              {
+                "poster":"../images/posterimage.PNG",
+                "videoLink":"https://player.vimeo.com/video/35735240",
+                "caption":""
+              }
+            ],
+            "images": [
+                {
+                    "imageLink": "../images/electrograph/13.jpg",
                     "caption": ""
                 }
             ]

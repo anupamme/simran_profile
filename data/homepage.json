@@ -3,22 +3,22 @@
         {
             "detailedLinkID": "food",
             "title": "Food Activism",
-            "coverImage": "../images/sim.jpg"
+            "coverImage": "../images/covers/food_activism.jpg"
         },
         {
             "detailedLinkID": "ethnography",
             "title": "Research Methodologies",
-            "coverImage": "../images/ethno.jpg"
+            "coverImage": "../images/covers/ethno.jpg"
         },
         {
             "detailedLinkID": "interfaces",
             "title": "Experimental Interfaces",
-            "coverImage": "../images/interfaces.jpg"
+            "coverImage": "../images/covers/interfaces.jpg"
         },
         {
             "detailedLinkID": "graphics",
             "title": "Graphics & Communication",
-            "coverImage": "../images/graphics.jpg"
+            "coverImage": "../images/covers/graphics_comm.jpg"
         }
     ]
 }
