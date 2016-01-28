@@ -806,6 +806,18 @@
                     "caption": ""
                 },
                 {
+                    "imageLink": "../images/taj/ethno3.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/ethno4.jpg",
+                    "caption": ""
+                },
+                {
+                    "imageLink": "../images/taj/ethno5.jpg",
+                    "caption": ""
+                },
+                {
                     "imageLink": "../images/taj/taj_east_1.jpg",
                     "caption": ""
                 },
@@ -840,7 +852,7 @@
         {
             "detailedLinkID": "17",
             "detaildHeader": "Roofitarian",
-            "description": "<p>It is an ongoing research and development endeavour. My journey with food continues and my appetite keeps increasing. It is in continuation of my masters thesis project where I explored food politics through self initiated research. The research manifested into numerous personal and professional outcomes such as publications in international conferences, a self sustaining planter, series of food activism artworks & installations presented internationally and community uncookbook on facebook.<p></p>Travelling further on the road I started growing some of my own food, through organic urban farming. I ventured out into my own edible terrace garden which inspired me to again merge technology and the urban farming. This endeavour lead me to develop a prototype of a smart planter which can monitor growth of plants through a series of sensors and applications. I disembarked from the project as I learned the intricacies of organic farming and found the project to be trivial in nature when compared to the monetary or intrinsic value. After having seen the work of Open Agricultures Lab recently, I am now trying to build a frugal aeroponic structure with the help of a makerspace in Bangalore.<p></p>In my upcoming work I would want to look at disrupting urban living spaces and systems to reconfigure the urban life towards more ecological point of view which can define the future of not only food and living spaces but also break the paradox of choice. Making technology and food accessible to everyone.</p><p>Documentation of concept for Ozchi24hr Challenge<br /><a href=\"https://www.youtube.com/watch?v=Xd0S6CQLQUM&feature=youtu.be\">Concept Video</a>: <br />Blog: http://newmediamoonies.tumblr.com</p>",
+            "description": "<p>It is an ongoing research and development endeavour. It is in continuation of my masters thesis project where I explored food politics through self initiated research. The research manifested into numerous personal and professional outcomes such as publications in international conferences, a self sustaining planter, series of food activism artworks & installations presented internationally and community uncookbook on facebook.<p></p>Travelling further on the road I started growing some of my own food, through organic urban farming. I ventured out into my own edible terrace garden which inspired me to again merge technology and the urban farming. This endeavour lead me to develop a prototype of a smart planter which can monitor growth of plants through a series of sensors and applications. I disembarked from the project as I learned the intricacies of organic farming and found the project to be trivial in nature when compared to the monetary or intrinsic value. After having seen the work of Open Agricultures Lab recently, I am now trying to build a frugal aeroponic structure with the help of a makerspace in Bangalore.<p></p>In my upcoming work I would want to look at disrupting urban living spaces and systems to reconfigure the urban life towards more ecological point of view which can define the future of not only food and living spaces but also break the paradox of choice. Making technology and food accessible to everyone.</p><p>Documentation of concept for Ozchi24hr Challenge<br /><a href=\"https://www.youtube.com/watch?v=Xd0S6CQLQUM&feature=youtu.be\">Concept Video</a>: <br />Blog: http://newmediamoonies.tumblr.com</p>",
             "workExhibited": [
             ],
             "images": [
@@ -893,13 +905,9 @@
                     "caption": ""
                 }
             ],
-            "images_2": [
+            "images_only": [
                 {
                     "imageLink": "../images/roofit/a.jpg",
-                    "caption": ""
-                },
-                {
-                    "imageLink": "../images/roofit/b.jpg",
                     "caption": ""
                 }
             ],
@@ -1132,7 +1140,7 @@
         },
         {
             "detailedLinkID": "24",
-            "detaildHeader": "Re-imagining Adobe Illustrator for Tablets",
+            "detaildHeader": "Re-imagining Painting Experience for Tablets",
             "description": "<p>Remediation of the painting palette, trying to incorporate the real life painting experiences on Tablets through the technological capabilities of the medium. The design brief by Adobe was to look at redefining the tools in an already existing desktop based format to that of a tablet. People are using the Tablet to create illustrations, artworks, graphics and presentations. The thought process lay in the domain of creating new tools, exploiting the additional capabilities of the medium (built in sensors, touch), optimizing interactions with a natural experience which was an amalgamation of real and virtual.</p><p>Remediation of the painting palette tries to incorporate the real life painting experience into the digital world. It provides capabilities of the touch for direct manipulation of paint and familiar painting gestures giving the user natural immersion. Simple design principles were also kept in mind while designing the interface. The mixing area of the palette can manipulate color, transparency and consistency. Consistency and transparency are interdependent in the real painting experience but can be separated in the digital environment. With a natural simple finger rotation gesture, like a brush on a palette the consistency and transparency can be changed. The palette also uses the capabilities of the gyroscope in the tablet to further enhance the experience of painting on tablets like dripping of paint.</p>",
             "workExhibited": [
             ],
@@ -1243,7 +1251,7 @@
             "description": "<p>An attempt to remediate two very old oral media forms – poetry and public speaking, into a film. Documentation of the project for further details.<p></p>Today’s world of consumerism and material pursuit is what’s ‘real’ for us. Unknowingly enslaved in the age of the image and its shadow, we find it difficult to extricate ourselves from this ever growing web of visual and electronic media. So we wonder -what is really the freedom that we have fought to seek? ‘Free Falling’ prompts the user to engage in a debate with herself and confront the paradox of freedom that exists.<p></p>It features Indian poet Rabindranath Tagore’s poem ‘Where the mind is without fear’ (1901), Martin Luther King Jr.’s speech ‘I have a dream’ (1963) and Jawaharlal Nehru’s speech ‘Tryst with destiny’ (1947). All of them talk about freedom in some sense. While Nehru speaks about the freedom of the nation state and King about freedom from inequality and racial bias, Tagore speaks about freedom of the inner self. ‘Free Falling’ essentially remediates the context in which these were written/ spoken. Also the final medium being a film, liberties offered by the medium have been taken to modify the linear structure of the poems and speech to suit our context.</p>",
             "workExhibited": [
             ],
-            "images": [
+            "images_only": [
               {
                     "imageLink": "../images/wormhole/1.jpg",
                     "caption": ""

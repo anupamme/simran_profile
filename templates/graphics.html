@@ -1,11 +1,20 @@
 <div class="container" ng-controller="graphicsController">
     <div class="row">
         <div class="col-md-4" ng-repeat="item in items">
-                <a class="content-holder" href="#/{{item.next}}detailedView/{{item.detailedLinkID}}" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
-                    <div class="image-holder-2 index_i_{{$index % 3}}">
-                        <img src="{{item.coverImage}}"/></div>
-                    <div class="text-holder" ng-show="hoverEdit"><span>{{item.title}}</span></div>
-                </a>
+                <div ng-show="item.next !== undefined">
+                    <a class="content-holder" href="#/{{item.next}}detailedView/{{item.detailedLinkID}}" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+                        <div class="image-holder-2 index_i_{{$index % 3}}">
+                            <img src="{{item.coverImage}}"/></div>
+                        <div class="text-holder" ng-show="hoverEdit"><span>{{item.title}}</span></div>
+                    </a>
+                </div>
+                <div ng-show="item.next === undefined">
+                    <a class="content-holder" href="{{item.url}}" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
+                        <div class="image-holder-2 index_i_{{$index % 3}}">
+                            <img src="{{item.coverImage}}"/></div>
+                        <div class="text-holder" ng-show="hoverEdit"><span>{{item.title}}</span></div>
+                    </a>
+                </div>
         </div>          
     </div>
 </div>

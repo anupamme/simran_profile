@@ -13,8 +13,8 @@
             "coverImage": "../images/covers/newmedia.jpg"
         },
         {
-            "type": "node",
-            "next": "graphic",
+            "type": "link",
+            "url": "https://www.behance.net/simranchopra",
             "title": "Graphic Design",
             "coverImage": "../images/covers/graphic.jpg"
         }

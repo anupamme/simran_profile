@@ -47,6 +47,10 @@ avenue.config(function ($routeProvider) {
             templateUrl: 'templates/media.html',
             controller: 'mediaController'
         }).
+        when('/graphicdetailedView', {
+            templateUrl: 'templates/media.html',
+            controller: 'graphicDetailController'
+        }).
         when('/advertizingdetailedView', {
             templateUrl: 'templates/advertizing.html',
             controller: 'advertizingController'
@@ -191,6 +195,11 @@ avenue.controller("mediaController", ['$scope', '$http', function($scope, $http)
     $scope.hoverOut = function () {
         this.hoverEdit = false;
     };
+}]);
+     
+avenue.controller("graphicDetailController", ['$scope', '$http', function($scope, $http) {
+    debugger
+    $window.location.href = 'https://www.behance.net/simranchopra'
 }]);
 
 avenue.controller("advertizingController", ['$scope', '$http', function($scope, $http) {
