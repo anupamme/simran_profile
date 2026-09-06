@@ -24,31 +24,31 @@
             "next": "aurallife",
             "detailedLinkID": "3",
             "title": "Electrograph",
-            "coverImage": "../images/covers/electrograph.jpg"
+            "coverImage": "../images/posterimage.PNG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "24",
             "title": "Re-imagining Painting",
-            "coverImage": "../images/covers/adobe.jpg"
+            "coverImage": "../images/posterimage.PNG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "25",
             "title": "Flush",
-            "coverImage": "../images/covers/flush.jpg"
+            "coverImage": "../images/posterimage.PNG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "29",
             "title": "Worm Holes",
-            "coverImage": "../images/covers/wormhole.jpg"
+            "coverImage": "../images/posterimage.PNG"
         },
         {
             "type": "leaf",
             "detailedLinkID": "21",
             "title": "Olfactory Interfaces",
-            "coverImage": "../images/olfactory/80.jpg"
+            "coverImage": "../images/posterimage.PNG"
         }
     ]
 }

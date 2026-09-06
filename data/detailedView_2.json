@@ -3,7 +3,7 @@
         {
             "detailedLinkID": "5",
             "title": "Entree",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/dip/cover.JPG"
         },
         {
             "detailedLinkID": "6",
@@ -13,7 +13,7 @@
         {
             "detailedLinkID": "7",
             "title": "Urban Food Chain",
-            "coverImage": "../images/dip/cover.jpg"
+            "coverImage": "../images/dip/cover.JPG"
         }
     ]
 }

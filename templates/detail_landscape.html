@@ -13,7 +13,7 @@
                 <div class="detailed-image-list">
                     <div ng-repeat="image in items.left.images">
                         <div class="detailed-image-holder">
-                            <img src="{{image.imageLink}}" />
+                            <img ng-src="{{image.imageLink}}" />
                         </div>
                         
                     </div>
@@ -31,7 +31,7 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item " ng-repeat="img in items.left.slide_show_1" ng-class='{active:$first}' >
-                                <img src="{{img.imageLink}}" />
+                                <img ng-src="{{img.imageLink}}" />
                                 <div class="carousel-caption">
                                        {{img.caption}}
                                 </div>
@@ -52,7 +52,7 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item " ng-repeat="img in items.left.slide_show_2" ng-class='{active:$first}' >
-                                <img src="{{img.imageLink}}" />
+                                <img ng-src="{{img.imageLink}}" />
                                 <div class="carousel-caption">
                                        {{img.caption}}
                                 </div>
@@ -85,7 +85,7 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item " ng-repeat="img in items.right.slide_show_1" ng-class='{active:$first}' >
-                                <img src="{{img.imageLink}}" />
+                                <img ng-src="{{img.imageLink}}" />
                                 <div class="carousel-caption">
                                        {{img.caption}}
                                 </div>
@@ -106,7 +106,7 @@
                     <div class="detailed-image-list">
                         <div ng-repeat="image in items.right.images">
                             <div class="detailed-image-holder">
-                                <img src="{{image.imageLink}}" />
+                                <img ng-src="{{image.imageLink}}" />
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item " ng-repeat="img in items.right.slide_show_2" ng-class='{active:$first}' >
-                                <img src="{{img.imageLink}}" />
+                                <img ng-src="{{img.imageLink}}" />
                                 <div class="carousel-caption">
                                        {{img.caption}}
                                 </div>

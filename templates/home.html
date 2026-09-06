@@ -3,7 +3,7 @@
         <div class="col-md-6" ng-repeat="item in items">
             <a class="content-holder" href="#/{{item.detailedLinkID}}" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
                 <div class="image-holder index_{{$index % 2}}">
-                    <img src="{{item.coverImage}}"/>
+                    <img ng-src="{{item.coverImage}}"/>
 <!--                    <span class="text-holder"><span>{{item.title}}</span></span>-->
                 </div>
                 <div class="text-holder-homepage" ng-show="hoverEdit">

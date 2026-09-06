@@ -3,7 +3,7 @@
         <div class="col-md-3" ng-repeat="item in items">
             <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}">
                 <div class="image-holder index_i_{{$index % 3}}">
-                    <img src="{{item.coverImage}}"/></div>
+                    <img ng-src="{{item.coverImage}}"/></div>
                 <div class="text-holder">{{item.title}}</div>
             </a>
         </div>          

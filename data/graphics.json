@@ -4,19 +4,19 @@
             "type": "node",
             "next": "animation",
             "title": "Experimental Animation",
-            "coverImage": "../images/covers/animation.jpg"
+            "coverImage": "../images/posterimage.PNG"
         },
         {
             "type": "node",
             "next": "media",
             "title": "New Media Theory",
-            "coverImage": "../images/covers/newmedia.jpg"
+            "coverImage": "../images/posterimage.PNG"
         },
         {
             "type": "link",
             "url": "https://www.behance.net/simranchopra",
             "title": "Graphic Design",
-            "coverImage": "../images/covers/graphic.jpg"
+            "coverImage": "../images/posterimage.PNG"
         }
     ]
 }

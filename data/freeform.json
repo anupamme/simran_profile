@@ -6,41 +6,41 @@
         "description": "<p>Ethnography project to understand the Aural Life World of an Ethnic group to map lived experiences and aural landscapes.  To make sense of sounds which may not exist in the real world but have meanings for the group or the community by making a visual artefact.</p>",
         "images": [
             {
-                "imageLink": "../images/aural_life/1.jpg",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             }
         ],
         "slide_show_1": [
             {
-                "imageLink": "../images/aural_life/A1.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/A2.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/A3.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/A4.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/A5.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/A6.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/A7.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/A8.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             }
         ],
@@ -55,7 +55,7 @@
     "right": {
         "images": [
             {
-                "imageLink": "../images/aural_life/3.jpg",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             }
         ],
@@ -71,65 +71,65 @@
         ],
         "slide_show_1": [
             {
-                "imageLink": "../images/aural_life/4.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/5.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/6.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/7.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/8.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/9.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/10.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/11.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/12.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/13.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             }
         ],
         "slide_show_3": [
             {
-                "imageLink": "../images/aural_life/B1.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/B2.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/B3.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/B4.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             },
             {
-                "imageLink": "../images/aural_life/B5.JPG",
+                "imageLink": "../images/posterimage.PNG",
                 "caption": ""
             }
         ],
@@ -151,7 +151,7 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/cigcheck/2.JPG",
+                    "imageLink": "../images/cigcheck/2.jpg",
                     "caption": ""
                 },
                 {
@@ -163,11 +163,11 @@
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/cigcheck/5.JPG",
+                    "imageLink": "../images/cigcheck/5.jpg",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/cigcheck/6.JPG",
+                    "imageLink": "../images/cigcheck/6.jpg",
                     "caption": ""
                 }
             ],
@@ -213,11 +213,11 @@
         "right": {
             "images": [
                 {
-                    "imageLink": "../images/cigcheck/cig1.jpg",
+                    "imageLink": "../images/posterimage.PNG",
                     "caption": ""
                 },
                 {
-                    "imageLink": "../images/cigcheck/cig_tall_3.jpg",
+                    "imageLink": "../images/posterimage.PNG",
                     "caption": ""
                 }
             ]
@@ -239,7 +239,7 @@
             ],
             "images": [
                 {
-                    "imageLink": "../images/electrograph/13.jpg",
+                    "imageLink": "../images/posterimage.PNG",
                     "caption": ""
                 }
             ]
