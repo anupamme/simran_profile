@@ -1,5 +1,5 @@
 <div class="container" ng-controller="homeController">
-    <div class="row">
+    <div class="row row-grid-3col">
         <div class="col-md-4" ng-repeat="item in items">
             <a class="content-holder" href="#/{{item.detailedLinkID}}" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
                 <div class="image-holder index_{{$index % 3}}">
