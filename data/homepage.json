@@ -2,7 +2,7 @@
     "items": [
         {
             "detailedLinkID": "ethnography",
-            "title": "Explorative & Evaluative Research",
+            "title": "Ethnography",
             "coverImage": "images/ethno.jpg"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "detailedLinkID": "ethnography2",
-            "title": "Ethnography",
+            "title": "Explorative & Evaluative Research",
             "coverImage": "images/graphics.jpg"
         }
     ]
