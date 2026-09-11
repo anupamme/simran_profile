@@ -15,21 +15,9 @@
         },
         {
             "type": "leaf",
-            "detailedLinkID": "14",
-            "title": "Records for Life",
-            "coverImage": "../images/recordsforlife/1.jpg"
-        },
-        {
-            "type": "leaf",
             "detailedLinkID": "15",
             "title": "Taj Ganj",
             "coverImage": "../images/taj/1.JPG"
-        },
-        {
-            "type": "leaf",
-            "detailedLinkID": "16",
-            "title": "Samsung R&D",
-            "coverImage": "../images/posterimage.PNG"
         }
     ]
 }
