@@ -19,6 +19,11 @@
             "detailedLinkID": "graphics",
             "title": "Graphics & Communication",
             "coverImage": "images/graphics.jpg"
+        },
+        {
+            "detailedLinkID": "human",
+            "title": "More Than Human & AI",
+            "coverImage": "images/graphics.jpg"
         }
     ]
 }
