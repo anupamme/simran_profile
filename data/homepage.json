@@ -1,19 +1,19 @@
 {
     "items": [
         {
-            "detailedLinkID": "food",
-            "title": "Food Activism",
-            "coverImage": "images/food_activism.jpg"
-        },
-        {
             "detailedLinkID": "ethnography",
-            "title": "Research Methodologies",
+            "title": "Explorative and Evaluative Research",
             "coverImage": "images/ethno.jpg"
         },
         {
             "detailedLinkID": "interfaces",
-            "title": "Experimental Interfaces",
+            "title": "Research Through Design",
             "coverImage": "images/interfaces.jpg"
+        },
+        {
+            "detailedLinkID": "food",
+            "title": "Installations & Public Engagement",
+            "coverImage": "images/food_activism.jpg"
         },
         {
             "detailedLinkID": "graphics",
