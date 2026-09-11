@@ -27,6 +27,10 @@ avenue.config(function ($routeProvider) {
             templateUrl: 'templates/ethnography.html',
             controller: 'ethnographyController'
         }).
+        when('/ethnography2', {
+            templateUrl: 'templates/ethnography2.html',
+            controller: 'ethnography2Controller'
+        }).
         when('/graphics', {
             templateUrl: 'templates/graphics.html',
             controller: 'graphicsController'
@@ -71,7 +75,7 @@ avenue.config(function ($routeProvider) {
         templateUrl: 'templates/error.html'
     }).
         otherwise({
-            redirectTo: '/#/'
+            redirectTo: '/'
         });
 });
 
@@ -287,6 +291,20 @@ avenue.controller("ethnographyController", ['$scope', '$http', function($scope, 
     };
 }]);
      
+avenue.controller("ethnography2Controller", ['$scope', '$http', function($scope, $http) {
+    $http.get("data/ethnography2.json", { cache: true }).success(function (data) {
+        $scope.items = data.items;
+    }).error(function (data) {
+        $window.location.href = '#/Error';
+    });
+    $scope.hoverIn = function () {
+        this.hoverEdit = true;
+    }
+    $scope.hoverOut = function () {
+        this.hoverEdit = false;
+    };
+}]);
+
 avenue.controller("slideshowController", ['$scope', '$http', function ($scope, $http, $window, $routeParams) {
     $scope.detail_page_id = 5
     debugger

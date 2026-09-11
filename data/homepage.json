@@ -2,7 +2,7 @@
     "items": [
         {
             "detailedLinkID": "ethnography",
-            "title": "Explorative and Evaluative Research",
+            "title": "Ethnography",
             "coverImage": "images/ethno.jpg"
         },
         {
@@ -18,6 +18,16 @@
         {
             "detailedLinkID": "graphics",
             "title": "Graphics & Communication",
+            "coverImage": "images/graphics.jpg"
+        },
+        {
+            "detailedLinkID": "human",
+            "title": "More Than Human & AI",
+            "coverImage": "images/graphics.jpg"
+        },
+        {
+            "detailedLinkID": "ethnography2",
+            "title": "Explorative & Evaluative Research",
             "coverImage": "images/graphics.jpg"
         }
     ]
