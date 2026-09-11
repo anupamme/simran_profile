@@ -24,6 +24,11 @@
             "detailedLinkID": "human",
             "title": "More Than Human & AI",
             "coverImage": "images/graphics.jpg"
+        },
+        {
+            "detailedLinkID": "ethnography2",
+            "title": "Ethnography",
+            "coverImage": "images/graphics.jpg"
         }
     ]
 }
