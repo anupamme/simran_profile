@@ -87,6 +87,11 @@
             </nav>
         </div>
 
+        <div class="wip-banner" ng-controller="bannerController" ng-show="showBanner" ng-cloak>
+            <span>This website is being updated. Some sections are still in progress.</span>
+            <button type="button" class="wip-banner-close" ng-click="dismissBanner()" aria-label="Dismiss">&times;</button>
+        </div>
+
         <div ng-view ng-cloak autoscroll="true"></div>
         <div class="footer">
             <div class="footer-text">&copy;Simran Chopra<br />Best Viewed in Google Chrome Browser.</div>

@@ -443,3 +443,47 @@ body {
     background-image: url("../images/sim_profile.jpg");
     background-size: cover;
 }
+
+.wip-banner {
+    position: relative;
+    margin: 0 auto 10px;
+    padding: 8px 40px 8px 15px;
+    max-width: 1400px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    color: #575757;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+
+.wip-banner-close {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    border: 0;
+    background: none;
+    font-size: 1.4em;
+    line-height: 1;
+    color: #575757;
+    cursor: pointer;
+}
+
+.wip-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    z-index: 6;
+}
+
+.wip-page {
+    margin-top: 60px;
+    text-align: center;
+}

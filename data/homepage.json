@@ -23,12 +23,14 @@
         {
             "detailedLinkID": "human",
             "title": "More Than Human & AI",
-            "coverImage": "images/graphics.jpg"
+            "coverImage": "images/graphics.jpg",
+            "wip": true
         },
         {
             "detailedLinkID": "ethnography2",
             "title": "Explorative & Evaluative Research",
-            "coverImage": "images/graphics.jpg"
+            "coverImage": "images/graphics.jpg",
+            "wip": true
         }
     ]
 }

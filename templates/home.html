@@ -6,6 +6,7 @@
                     <img ng-src="{{item.coverImage}}"/>
 <!--                    <span class="text-holder"><span>{{item.title}}</span></span>-->
                 </div>
+                <span class="wip-badge" ng-if="item.wip">In progress</span>
                 <div class="text-holder-homepage" ng-show="hoverEdit">
                     <span>{{item.title}}</span></div>
             </a>
